@@ -29,18 +29,18 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
+            this.lbl_school = new System.Windows.Forms.Label();
+            this.lbl_ctracing = new System.Windows.Forms.Label();
+            this.lbl_date = new System.Windows.Forms.Label();
+            this.lbl_time = new System.Windows.Forms.Label();
+            this.lbl_gsection = new System.Windows.Forms.Label();
+            this.lbl_pname = new System.Windows.Forms.Label();
+            this.lbl_gname = new System.Windows.Forms.Label();
+            this.lbl_address = new System.Windows.Forms.Label();
+            this.lbl_cnumber = new System.Windows.Forms.Label();
+            this.lbl_temp = new System.Windows.Forms.Label();
+            this.lbl_gender = new System.Windows.Forms.Label();
+            this.lbl_dbirth = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.textBox3 = new System.Windows.Forms.TextBox();
@@ -51,119 +51,120 @@
             this.textBox8 = new System.Windows.Forms.TextBox();
             this.textBox9 = new System.Windows.Forms.TextBox();
             this.textBox10 = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btn_submit = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
-            // label1
+            // lbl_school
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(301, 22);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(38, 15);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "label1";
+            this.lbl_school.AutoSize = true;
+            this.lbl_school.Location = new System.Drawing.Point(301, 22);
+            this.lbl_school.Name = "lbl_school";
+            this.lbl_school.Size = new System.Drawing.Size(219, 15);
+            this.lbl_school.TabIndex = 0;
+            this.lbl_school.Text = "Polytechnic University of the Philippines";
+            this.lbl_school.Click += new System.EventHandler(this.label1_Click);
             // 
-            // label2
+            // lbl_ctracing
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(301, 61);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(38, 15);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "label2";
+            this.lbl_ctracing.AutoSize = true;
+            this.lbl_ctracing.Location = new System.Drawing.Point(301, 61);
+            this.lbl_ctracing.Name = "lbl_ctracing";
+            this.lbl_ctracing.Size = new System.Drawing.Size(90, 15);
+            this.lbl_ctracing.TabIndex = 1;
+            this.lbl_ctracing.Text = "Contact Tracing";
             // 
-            // label3
+            // lbl_date
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(43, 117);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(38, 15);
-            this.label3.TabIndex = 2;
-            this.label3.Text = "label3";
+            this.lbl_date.AutoSize = true;
+            this.lbl_date.Location = new System.Drawing.Point(43, 117);
+            this.lbl_date.Name = "lbl_date";
+            this.lbl_date.Size = new System.Drawing.Size(34, 15);
+            this.lbl_date.TabIndex = 2;
+            this.lbl_date.Text = "Date:";
             // 
-            // label4
+            // lbl_time
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(43, 143);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(38, 15);
-            this.label4.TabIndex = 3;
-            this.label4.Text = "label4";
+            this.lbl_time.AutoSize = true;
+            this.lbl_time.Location = new System.Drawing.Point(43, 143);
+            this.lbl_time.Name = "lbl_time";
+            this.lbl_time.Size = new System.Drawing.Size(36, 15);
+            this.lbl_time.TabIndex = 3;
+            this.lbl_time.Text = "Time:";
             // 
-            // label5
+            // lbl_gsection
             // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(43, 172);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(38, 15);
-            this.label5.TabIndex = 4;
-            this.label5.Text = "label5";
+            this.lbl_gsection.AutoSize = true;
+            this.lbl_gsection.Location = new System.Drawing.Point(43, 172);
+            this.lbl_gsection.Name = "lbl_gsection";
+            this.lbl_gsection.Size = new System.Drawing.Size(106, 15);
+            this.lbl_gsection.TabIndex = 4;
+            this.lbl_gsection.Text = "Grade and Section:";
             // 
-            // label6
+            // lbl_pname
             // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(43, 213);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(38, 15);
-            this.label6.TabIndex = 5;
-            this.label6.Text = "label6";
+            this.lbl_pname.AutoSize = true;
+            this.lbl_pname.Location = new System.Drawing.Point(43, 213);
+            this.lbl_pname.Name = "lbl_pname";
+            this.lbl_pname.Size = new System.Drawing.Size(86, 15);
+            this.lbl_pname.TabIndex = 5;
+            this.lbl_pname.Text = "Name of Pupil:";
             // 
-            // label7
+            // lbl_gname
             // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(43, 247);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(38, 15);
-            this.label7.TabIndex = 6;
-            this.label7.Text = "label7";
+            this.lbl_gname.AutoSize = true;
+            this.lbl_gname.Location = new System.Drawing.Point(43, 247);
+            this.lbl_gname.Name = "lbl_gname";
+            this.lbl_gname.Size = new System.Drawing.Size(146, 15);
+            this.lbl_gname.TabIndex = 6;
+            this.lbl_gname.Text = "Name of Guardian/Parent:";
             // 
-            // label8
+            // lbl_address
             // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(43, 282);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(38, 15);
-            this.label8.TabIndex = 7;
-            this.label8.Text = "label8";
-            this.label8.Click += new System.EventHandler(this.label8_Click);
+            this.lbl_address.AutoSize = true;
+            this.lbl_address.Location = new System.Drawing.Point(43, 282);
+            this.lbl_address.Name = "lbl_address";
+            this.lbl_address.Size = new System.Drawing.Size(52, 15);
+            this.lbl_address.TabIndex = 7;
+            this.lbl_address.Text = "Address:";
+            this.lbl_address.Click += new System.EventHandler(this.label8_Click);
             // 
-            // label9
+            // lbl_cnumber
             // 
-            this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(43, 326);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(38, 15);
-            this.label9.TabIndex = 8;
-            this.label9.Text = "label9";
+            this.lbl_cnumber.AutoSize = true;
+            this.lbl_cnumber.Location = new System.Drawing.Point(43, 326);
+            this.lbl_cnumber.Name = "lbl_cnumber";
+            this.lbl_cnumber.Size = new System.Drawing.Size(99, 15);
+            this.lbl_cnumber.TabIndex = 8;
+            this.lbl_cnumber.Text = "Contact Number:";
             // 
-            // label10
+            // lbl_temp
             // 
-            this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(37, 388);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(44, 15);
-            this.label10.TabIndex = 9;
-            this.label10.Text = "label10";
+            this.lbl_temp.AutoSize = true;
+            this.lbl_temp.Location = new System.Drawing.Point(37, 388);
+            this.lbl_temp.Name = "lbl_temp";
+            this.lbl_temp.Size = new System.Drawing.Size(76, 15);
+            this.lbl_temp.TabIndex = 9;
+            this.lbl_temp.Text = "Temperature:";
             // 
-            // label11
+            // lbl_gender
             // 
-            this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(444, 122);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(44, 15);
-            this.label11.TabIndex = 10;
-            this.label11.Text = "label11";
+            this.lbl_gender.AutoSize = true;
+            this.lbl_gender.Location = new System.Drawing.Point(444, 122);
+            this.lbl_gender.Name = "lbl_gender";
+            this.lbl_gender.Size = new System.Drawing.Size(48, 15);
+            this.lbl_gender.TabIndex = 10;
+            this.lbl_gender.Text = "Gender:";
             // 
-            // label12
+            // lbl_dbirth
             // 
-            this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(442, 153);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(44, 15);
-            this.label12.TabIndex = 11;
-            this.label12.Text = "label12";
+            this.lbl_dbirth.AutoSize = true;
+            this.lbl_dbirth.Location = new System.Drawing.Point(442, 153);
+            this.lbl_dbirth.Name = "lbl_dbirth";
+            this.lbl_dbirth.Size = new System.Drawing.Size(76, 15);
+            this.lbl_dbirth.TabIndex = 11;
+            this.lbl_dbirth.Text = "Date of Birth:";
             // 
             // textBox1
             // 
@@ -195,7 +196,7 @@
             // 
             // textBox5
             // 
-            this.textBox5.Location = new System.Drawing.Point(104, 247);
+            this.textBox5.Location = new System.Drawing.Point(87, 244);
             this.textBox5.Name = "textBox5";
             this.textBox5.Size = new System.Drawing.Size(235, 23);
             this.textBox5.TabIndex = 16;
@@ -235,14 +236,14 @@
             this.textBox10.Size = new System.Drawing.Size(235, 23);
             this.textBox10.TabIndex = 21;
             // 
-            // button1
+            // btn_submit
             // 
-            this.button1.Location = new System.Drawing.Point(526, 182);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(166, 46);
-            this.button1.TabIndex = 22;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btn_submit.Location = new System.Drawing.Point(526, 182);
+            this.btn_submit.Name = "btn_submit";
+            this.btn_submit.Size = new System.Drawing.Size(166, 46);
+            this.btn_submit.TabIndex = 22;
+            this.btn_submit.Text = "Submit";
+            this.btn_submit.UseVisualStyleBackColor = true;
             // 
             // pictureBox1
             // 
@@ -261,7 +262,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(917, 464);
             this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btn_submit);
             this.Controls.Add(this.textBox10);
             this.Controls.Add(this.textBox9);
             this.Controls.Add(this.textBox8);
@@ -272,20 +273,20 @@
             this.Controls.Add(this.textBox3);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.label12);
-            this.Controls.Add(this.label11);
-            this.Controls.Add(this.label10);
-            this.Controls.Add(this.label9);
-            this.Controls.Add(this.label8);
-            this.Controls.Add(this.label7);
-            this.Controls.Add(this.label6);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.lbl_dbirth);
+            this.Controls.Add(this.lbl_gender);
+            this.Controls.Add(this.lbl_temp);
+            this.Controls.Add(this.lbl_cnumber);
+            this.Controls.Add(this.lbl_address);
+            this.Controls.Add(this.lbl_gname);
+            this.Controls.Add(this.lbl_pname);
+            this.Controls.Add(this.lbl_gsection);
+            this.Controls.Add(this.lbl_time);
+            this.Controls.Add(this.lbl_date);
+            this.Controls.Add(this.lbl_ctracing);
+            this.Controls.Add(this.lbl_school);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Contact Tracing";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -294,18 +295,18 @@
 
         #endregion
 
-        private Label label1;
-        private Label label2;
-        private Label label3;
-        private Label label4;
-        private Label label5;
-        private Label label6;
-        private Label label7;
-        private Label label8;
-        private Label label9;
-        private Label label10;
-        private Label label11;
-        private Label label12;
+        private Label lbl_school;
+        private Label lbl_ctracing;
+        private Label lbl_date;
+        private Label lbl_time;
+        private Label lbl_gsection;
+        private Label lbl_pname;
+        private Label lbl_gname;
+        private Label lbl_address;
+        private Label lbl_cnumber;
+        private Label lbl_temp;
+        private Label lbl_gender;
+        private Label lbl_dbirth;
         private TextBox textBox1;
         private TextBox textBox2;
         private TextBox textBox3;
@@ -316,7 +317,7 @@
         private TextBox textBox8;
         private TextBox textBox9;
         private TextBox textBox10;
-        private Button button1;
+        private Button btn_submit;
         private PictureBox pictureBox1;
     }
 }

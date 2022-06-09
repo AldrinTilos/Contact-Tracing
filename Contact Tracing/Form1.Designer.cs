@@ -40,16 +40,16 @@
             this.lbl_temp = new System.Windows.Forms.Label();
             this.lbl_gender = new System.Windows.Forms.Label();
             this.lbl_dbirth = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.textBox8 = new System.Windows.Forms.TextBox();
-            this.textBox9 = new System.Windows.Forms.TextBox();
-            this.textBox10 = new System.Windows.Forms.TextBox();
+            this.txtbox_date = new System.Windows.Forms.TextBox();
+            this.txtbox_time = new System.Windows.Forms.TextBox();
+            this.txtbox_gsection = new System.Windows.Forms.TextBox();
+            this.txtbox_pname = new System.Windows.Forms.TextBox();
+            this.txtbox_gname = new System.Windows.Forms.TextBox();
+            this.txtbox_address = new System.Windows.Forms.TextBox();
+            this.txtbox_cnumber = new System.Windows.Forms.TextBox();
+            this.txtbox_temp = new System.Windows.Forms.TextBox();
+            this.txtbox_gender = new System.Windows.Forms.TextBox();
+            this.txtbox_dbirth = new System.Windows.Forms.TextBox();
             this.btn_submit = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
@@ -166,75 +166,75 @@
             this.lbl_dbirth.TabIndex = 11;
             this.lbl_dbirth.Text = "Date of Birth:";
             // 
-            // textBox1
+            // txtbox_date
             // 
-            this.textBox1.Location = new System.Drawing.Point(150, 182);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(122, 23);
-            this.textBox1.TabIndex = 12;
+            this.txtbox_date.Location = new System.Drawing.Point(150, 182);
+            this.txtbox_date.Name = "txtbox_date";
+            this.txtbox_date.Size = new System.Drawing.Size(122, 23);
+            this.txtbox_date.TabIndex = 12;
             // 
-            // textBox2
+            // txtbox_time
             // 
-            this.textBox2.Location = new System.Drawing.Point(150, 211);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(77, 23);
-            this.textBox2.TabIndex = 13;
+            this.txtbox_time.Location = new System.Drawing.Point(150, 211);
+            this.txtbox_time.Name = "txtbox_time";
+            this.txtbox_time.Size = new System.Drawing.Size(77, 23);
+            this.txtbox_time.TabIndex = 13;
             // 
-            // textBox3
+            // txtbox_gsection
             // 
-            this.textBox3.Location = new System.Drawing.Point(148, 240);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(107, 23);
-            this.textBox3.TabIndex = 14;
+            this.txtbox_gsection.Location = new System.Drawing.Point(148, 240);
+            this.txtbox_gsection.Name = "txtbox_gsection";
+            this.txtbox_gsection.Size = new System.Drawing.Size(107, 23);
+            this.txtbox_gsection.TabIndex = 14;
             // 
-            // textBox4
+            // txtbox_pname
             // 
-            this.textBox4.Location = new System.Drawing.Point(148, 269);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(193, 23);
-            this.textBox4.TabIndex = 15;
+            this.txtbox_pname.Location = new System.Drawing.Point(148, 269);
+            this.txtbox_pname.Name = "txtbox_pname";
+            this.txtbox_pname.Size = new System.Drawing.Size(193, 23);
+            this.txtbox_pname.TabIndex = 15;
             // 
-            // textBox5
+            // txtbox_gname
             // 
-            this.textBox5.Location = new System.Drawing.Point(178, 298);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(181, 23);
-            this.textBox5.TabIndex = 16;
+            this.txtbox_gname.Location = new System.Drawing.Point(178, 298);
+            this.txtbox_gname.Name = "txtbox_gname";
+            this.txtbox_gname.Size = new System.Drawing.Size(181, 23);
+            this.txtbox_gname.TabIndex = 16;
             // 
-            // textBox6
+            // txtbox_address
             // 
-            this.textBox6.Location = new System.Drawing.Point(148, 330);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(370, 23);
-            this.textBox6.TabIndex = 17;
+            this.txtbox_address.Location = new System.Drawing.Point(148, 330);
+            this.txtbox_address.Name = "txtbox_address";
+            this.txtbox_address.Size = new System.Drawing.Size(370, 23);
+            this.txtbox_address.TabIndex = 17;
             // 
-            // textBox7
+            // txtbox_cnumber
             // 
-            this.textBox7.Location = new System.Drawing.Point(148, 364);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(235, 23);
-            this.textBox7.TabIndex = 18;
+            this.txtbox_cnumber.Location = new System.Drawing.Point(148, 364);
+            this.txtbox_cnumber.Name = "txtbox_cnumber";
+            this.txtbox_cnumber.Size = new System.Drawing.Size(235, 23);
+            this.txtbox_cnumber.TabIndex = 18;
             // 
-            // textBox8
+            // txtbox_temp
             // 
-            this.textBox8.Location = new System.Drawing.Point(148, 393);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(159, 23);
-            this.textBox8.TabIndex = 19;
+            this.txtbox_temp.Location = new System.Drawing.Point(148, 393);
+            this.txtbox_temp.Name = "txtbox_temp";
+            this.txtbox_temp.Size = new System.Drawing.Size(159, 23);
+            this.txtbox_temp.TabIndex = 19;
             // 
-            // textBox9
+            // txtbox_gender
             // 
-            this.textBox9.Location = new System.Drawing.Point(578, 179);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(60, 23);
-            this.textBox9.TabIndex = 20;
+            this.txtbox_gender.Location = new System.Drawing.Point(578, 179);
+            this.txtbox_gender.Name = "txtbox_gender";
+            this.txtbox_gender.Size = new System.Drawing.Size(60, 23);
+            this.txtbox_gender.TabIndex = 20;
             // 
-            // textBox10
+            // txtbox_dbirth
             // 
-            this.textBox10.Location = new System.Drawing.Point(578, 211);
-            this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(154, 23);
-            this.textBox10.TabIndex = 21;
+            this.txtbox_dbirth.Location = new System.Drawing.Point(578, 211);
+            this.txtbox_dbirth.Name = "txtbox_dbirth";
+            this.txtbox_dbirth.Size = new System.Drawing.Size(154, 23);
+            this.txtbox_dbirth.TabIndex = 21;
             // 
             // btn_submit
             // 
@@ -254,16 +254,16 @@
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(917, 464);
             this.Controls.Add(this.btn_submit);
-            this.Controls.Add(this.textBox10);
-            this.Controls.Add(this.textBox9);
-            this.Controls.Add(this.textBox8);
-            this.Controls.Add(this.textBox7);
-            this.Controls.Add(this.textBox6);
-            this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtbox_dbirth);
+            this.Controls.Add(this.txtbox_gender);
+            this.Controls.Add(this.txtbox_temp);
+            this.Controls.Add(this.txtbox_cnumber);
+            this.Controls.Add(this.txtbox_address);
+            this.Controls.Add(this.txtbox_gname);
+            this.Controls.Add(this.txtbox_pname);
+            this.Controls.Add(this.txtbox_gsection);
+            this.Controls.Add(this.txtbox_time);
+            this.Controls.Add(this.txtbox_date);
             this.Controls.Add(this.lbl_dbirth);
             this.Controls.Add(this.lbl_gender);
             this.Controls.Add(this.lbl_temp);
@@ -294,16 +294,16 @@
         private Label lbl_temp;
         private Label lbl_gender;
         private Label lbl_dbirth;
-        private TextBox textBox1;
-        private TextBox textBox2;
-        private TextBox textBox3;
-        private TextBox textBox4;
-        private TextBox textBox5;
-        private TextBox textBox6;
-        private TextBox textBox7;
-        private TextBox textBox8;
-        private TextBox textBox9;
-        private TextBox textBox10;
+        private TextBox txtbox_date;
+        private TextBox txtbox_time;
+        private TextBox txtbox_gsection;
+        private TextBox txtbox_pname;
+        private TextBox txtbox_gname;
+        private TextBox txtbox_address;
+        private TextBox txtbox_cnumber;
+        private TextBox txtbox_temp;
+        private TextBox txtbox_gender;
+        private TextBox txtbox_dbirth;
         private Button btn_submit;
     }
 }

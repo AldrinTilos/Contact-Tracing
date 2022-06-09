@@ -59,9 +59,11 @@
             // lbl_school
             // 
             this.lbl_school.AutoSize = true;
-            this.lbl_school.Location = new System.Drawing.Point(301, 22);
+            this.lbl_school.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.lbl_school.Font = new System.Drawing.Font("Verdana", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lbl_school.Location = new System.Drawing.Point(250, 12);
             this.lbl_school.Name = "lbl_school";
-            this.lbl_school.Size = new System.Drawing.Size(219, 15);
+            this.lbl_school.Size = new System.Drawing.Size(430, 25);
             this.lbl_school.TabIndex = 0;
             this.lbl_school.Text = "Polytechnic University of the Philippines";
             this.lbl_school.Click += new System.EventHandler(this.label1_Click);
@@ -69,16 +71,19 @@
             // lbl_ctracing
             // 
             this.lbl_ctracing.AutoSize = true;
-            this.lbl_ctracing.Location = new System.Drawing.Point(301, 61);
+            this.lbl_ctracing.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.lbl_ctracing.Font = new System.Drawing.Font("Verdana", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point);
+            this.lbl_ctracing.Location = new System.Drawing.Point(331, 47);
             this.lbl_ctracing.Name = "lbl_ctracing";
-            this.lbl_ctracing.Size = new System.Drawing.Size(90, 15);
+            this.lbl_ctracing.Size = new System.Drawing.Size(269, 29);
             this.lbl_ctracing.TabIndex = 1;
-            this.lbl_ctracing.Text = "Contact Tracing";
+            this.lbl_ctracing.Text = "CONTACT TRACING";
             // 
             // lbl_date
             // 
             this.lbl_date.AutoSize = true;
-            this.lbl_date.Location = new System.Drawing.Point(43, 117);
+            this.lbl_date.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.lbl_date.Location = new System.Drawing.Point(108, 161);
             this.lbl_date.Name = "lbl_date";
             this.lbl_date.Size = new System.Drawing.Size(34, 15);
             this.lbl_date.TabIndex = 2;
@@ -87,7 +92,8 @@
             // lbl_time
             // 
             this.lbl_time.AutoSize = true;
-            this.lbl_time.Location = new System.Drawing.Point(43, 143);
+            this.lbl_time.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.lbl_time.Location = new System.Drawing.Point(106, 190);
             this.lbl_time.Name = "lbl_time";
             this.lbl_time.Size = new System.Drawing.Size(36, 15);
             this.lbl_time.TabIndex = 3;
@@ -96,7 +102,8 @@
             // lbl_gsection
             // 
             this.lbl_gsection.AutoSize = true;
-            this.lbl_gsection.Location = new System.Drawing.Point(43, 172);
+            this.lbl_gsection.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.lbl_gsection.Location = new System.Drawing.Point(36, 222);
             this.lbl_gsection.Name = "lbl_gsection";
             this.lbl_gsection.Size = new System.Drawing.Size(106, 15);
             this.lbl_gsection.TabIndex = 4;
@@ -105,7 +112,8 @@
             // lbl_pname
             // 
             this.lbl_pname.AutoSize = true;
-            this.lbl_pname.Location = new System.Drawing.Point(43, 213);
+            this.lbl_pname.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.lbl_pname.Location = new System.Drawing.Point(56, 251);
             this.lbl_pname.Name = "lbl_pname";
             this.lbl_pname.Size = new System.Drawing.Size(86, 15);
             this.lbl_pname.TabIndex = 5;
@@ -114,7 +122,8 @@
             // lbl_gname
             // 
             this.lbl_gname.AutoSize = true;
-            this.lbl_gname.Location = new System.Drawing.Point(43, 247);
+            this.lbl_gname.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.lbl_gname.Location = new System.Drawing.Point(26, 286);
             this.lbl_gname.Name = "lbl_gname";
             this.lbl_gname.Size = new System.Drawing.Size(146, 15);
             this.lbl_gname.TabIndex = 6;
@@ -123,7 +132,8 @@
             // lbl_address
             // 
             this.lbl_address.AutoSize = true;
-            this.lbl_address.Location = new System.Drawing.Point(43, 282);
+            this.lbl_address.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.lbl_address.Location = new System.Drawing.Point(90, 320);
             this.lbl_address.Name = "lbl_address";
             this.lbl_address.Size = new System.Drawing.Size(52, 15);
             this.lbl_address.TabIndex = 7;
@@ -133,7 +143,8 @@
             // lbl_cnumber
             // 
             this.lbl_cnumber.AutoSize = true;
-            this.lbl_cnumber.Location = new System.Drawing.Point(43, 326);
+            this.lbl_cnumber.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.lbl_cnumber.Location = new System.Drawing.Point(43, 354);
             this.lbl_cnumber.Name = "lbl_cnumber";
             this.lbl_cnumber.Size = new System.Drawing.Size(99, 15);
             this.lbl_cnumber.TabIndex = 8;
@@ -142,7 +153,8 @@
             // lbl_temp
             // 
             this.lbl_temp.AutoSize = true;
-            this.lbl_temp.Location = new System.Drawing.Point(37, 388);
+            this.lbl_temp.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.lbl_temp.Location = new System.Drawing.Point(66, 388);
             this.lbl_temp.Name = "lbl_temp";
             this.lbl_temp.Size = new System.Drawing.Size(76, 15);
             this.lbl_temp.TabIndex = 9;
@@ -151,7 +163,8 @@
             // lbl_gender
             // 
             this.lbl_gender.AutoSize = true;
-            this.lbl_gender.Location = new System.Drawing.Point(444, 122);
+            this.lbl_gender.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.lbl_gender.Location = new System.Drawing.Point(530, 158);
             this.lbl_gender.Name = "lbl_gender";
             this.lbl_gender.Size = new System.Drawing.Size(48, 15);
             this.lbl_gender.TabIndex = 10;
@@ -160,7 +173,8 @@
             // lbl_dbirth
             // 
             this.lbl_dbirth.AutoSize = true;
-            this.lbl_dbirth.Location = new System.Drawing.Point(442, 153);
+            this.lbl_dbirth.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.lbl_dbirth.Location = new System.Drawing.Point(502, 190);
             this.lbl_dbirth.Name = "lbl_dbirth";
             this.lbl_dbirth.Size = new System.Drawing.Size(76, 15);
             this.lbl_dbirth.TabIndex = 11;
@@ -168,88 +182,89 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(116, 119);
+            this.textBox1.Location = new System.Drawing.Point(148, 158);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(235, 23);
+            this.textBox1.Size = new System.Drawing.Size(122, 23);
             this.textBox1.TabIndex = 12;
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(104, 150);
+            this.textBox2.Location = new System.Drawing.Point(148, 187);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(235, 23);
+            this.textBox2.Size = new System.Drawing.Size(77, 23);
             this.textBox2.TabIndex = 13;
             // 
             // textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(104, 179);
+            this.textBox3.Location = new System.Drawing.Point(148, 219);
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(235, 23);
+            this.textBox3.Size = new System.Drawing.Size(107, 23);
             this.textBox3.TabIndex = 14;
             // 
             // textBox4
             // 
-            this.textBox4.Location = new System.Drawing.Point(104, 213);
+            this.textBox4.Location = new System.Drawing.Point(148, 248);
             this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(235, 23);
+            this.textBox4.Size = new System.Drawing.Size(193, 23);
             this.textBox4.TabIndex = 15;
             // 
             // textBox5
             // 
-            this.textBox5.Location = new System.Drawing.Point(87, 244);
+            this.textBox5.Location = new System.Drawing.Point(178, 283);
             this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(235, 23);
+            this.textBox5.Size = new System.Drawing.Size(181, 23);
             this.textBox5.TabIndex = 16;
             // 
             // textBox6
             // 
-            this.textBox6.Location = new System.Drawing.Point(104, 279);
+            this.textBox6.Location = new System.Drawing.Point(148, 317);
             this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(235, 23);
+            this.textBox6.Size = new System.Drawing.Size(370, 23);
             this.textBox6.TabIndex = 17;
             // 
             // textBox7
             // 
-            this.textBox7.Location = new System.Drawing.Point(87, 326);
+            this.textBox7.Location = new System.Drawing.Point(148, 351);
             this.textBox7.Name = "textBox7";
             this.textBox7.Size = new System.Drawing.Size(235, 23);
             this.textBox7.TabIndex = 18;
             // 
             // textBox8
             // 
-            this.textBox8.Location = new System.Drawing.Point(87, 385);
+            this.textBox8.Location = new System.Drawing.Point(148, 385);
             this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(235, 23);
+            this.textBox8.Size = new System.Drawing.Size(159, 23);
             this.textBox8.TabIndex = 19;
             // 
             // textBox9
             // 
-            this.textBox9.Location = new System.Drawing.Point(505, 109);
+            this.textBox9.Location = new System.Drawing.Point(584, 155);
             this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(235, 23);
+            this.textBox9.Size = new System.Drawing.Size(60, 23);
             this.textBox9.TabIndex = 20;
             // 
             // textBox10
             // 
-            this.textBox10.Location = new System.Drawing.Point(492, 143);
+            this.textBox10.Location = new System.Drawing.Point(584, 187);
             this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(235, 23);
+            this.textBox10.Size = new System.Drawing.Size(154, 23);
             this.textBox10.TabIndex = 21;
             // 
             // btn_submit
             // 
-            this.btn_submit.Location = new System.Drawing.Point(526, 182);
+            this.btn_submit.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.btn_submit.Location = new System.Drawing.Point(628, 385);
             this.btn_submit.Name = "btn_submit";
             this.btn_submit.Size = new System.Drawing.Size(166, 46);
             this.btn_submit.TabIndex = 22;
             this.btn_submit.Text = "Submit";
-            this.btn_submit.UseVisualStyleBackColor = true;
+            this.btn_submit.UseVisualStyleBackColor = false;
             // 
             // pictureBox1
             // 
             this.pictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.BackgroundImage")));
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox1.Location = new System.Drawing.Point(12, 12);
+            this.pictureBox1.Location = new System.Drawing.Point(26, 8);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(116, 106);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -260,6 +275,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(917, 464);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.btn_submit);

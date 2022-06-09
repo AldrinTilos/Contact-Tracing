@@ -38,7 +38,8 @@ namespace Contact_Tracing
             detail.WriteLine("Temperature: " + txtbox_temp.Text);
             detail.Close();
             MessageBox.Show("Thank You For Your Response!", "Contact Tracing", MessageBoxButtons.OK, MessageBoxIcon.Information);
-            
+            txtbox_date.Text = txtbox_time.Text = txtbox_gender.Text = txtbox_dbirth.Text = txtbox_gsection.Text = txtbox_pname.Text = 
+            txtbox_gname.Text = txtbox_address.Text = txtbox_cnumber.Text = txtbox_temp.Text = "";
         }
 
         private void txtbox_dbirth_TextChanged(object sender, EventArgs e)

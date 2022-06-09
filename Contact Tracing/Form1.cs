@@ -40,5 +40,10 @@ namespace Contact_Tracing
             MessageBox.Show("Thank You For Your Response!", "Contact Tracing", MessageBoxButtons.OK, MessageBoxIcon.Information);
             
         }
+
+        private void txtbox_dbirth_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

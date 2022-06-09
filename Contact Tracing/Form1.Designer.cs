@@ -69,9 +69,10 @@
             // 
             this.lbl_date.AutoSize = true;
             this.lbl_date.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.lbl_date.Font = new System.Drawing.Font("Verdana", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.lbl_date.Location = new System.Drawing.Point(108, 187);
             this.lbl_date.Name = "lbl_date";
-            this.lbl_date.Size = new System.Drawing.Size(34, 15);
+            this.lbl_date.Size = new System.Drawing.Size(50, 18);
             this.lbl_date.TabIndex = 2;
             this.lbl_date.Text = "Date:";
             // 
@@ -79,9 +80,10 @@
             // 
             this.lbl_time.AutoSize = true;
             this.lbl_time.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.lbl_time.Font = new System.Drawing.Font("Verdana", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.lbl_time.Location = new System.Drawing.Point(108, 218);
             this.lbl_time.Name = "lbl_time";
-            this.lbl_time.Size = new System.Drawing.Size(36, 15);
+            this.lbl_time.Size = new System.Drawing.Size(51, 18);
             this.lbl_time.TabIndex = 3;
             this.lbl_time.Text = "Time:";
             // 
@@ -89,9 +91,10 @@
             // 
             this.lbl_gsection.AutoSize = true;
             this.lbl_gsection.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.lbl_gsection.Font = new System.Drawing.Font("Verdana", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.lbl_gsection.Location = new System.Drawing.Point(36, 245);
             this.lbl_gsection.Name = "lbl_gsection";
-            this.lbl_gsection.Size = new System.Drawing.Size(106, 15);
+            this.lbl_gsection.Size = new System.Drawing.Size(152, 18);
             this.lbl_gsection.TabIndex = 4;
             this.lbl_gsection.Text = "Grade and Section:";
             // 
@@ -99,9 +102,10 @@
             // 
             this.lbl_pname.AutoSize = true;
             this.lbl_pname.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            this.lbl_pname.Location = new System.Drawing.Point(56, 272);
+            this.lbl_pname.Font = new System.Drawing.Font("Verdana", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lbl_pname.Location = new System.Drawing.Point(56, 277);
             this.lbl_pname.Name = "lbl_pname";
-            this.lbl_pname.Size = new System.Drawing.Size(86, 15);
+            this.lbl_pname.Size = new System.Drawing.Size(117, 18);
             this.lbl_pname.TabIndex = 5;
             this.lbl_pname.Text = "Name of Pupil:";
             // 
@@ -109,9 +113,10 @@
             // 
             this.lbl_gname.AutoSize = true;
             this.lbl_gname.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            this.lbl_gname.Location = new System.Drawing.Point(26, 301);
+            this.lbl_gname.Font = new System.Drawing.Font("Verdana", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lbl_gname.Location = new System.Drawing.Point(36, 311);
             this.lbl_gname.Name = "lbl_gname";
-            this.lbl_gname.Size = new System.Drawing.Size(146, 15);
+            this.lbl_gname.Size = new System.Drawing.Size(205, 18);
             this.lbl_gname.TabIndex = 6;
             this.lbl_gname.Text = "Name of Guardian/Parent:";
             // 
@@ -119,9 +124,10 @@
             // 
             this.lbl_address.AutoSize = true;
             this.lbl_address.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            this.lbl_address.Location = new System.Drawing.Point(90, 333);
+            this.lbl_address.Font = new System.Drawing.Font("Verdana", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lbl_address.Location = new System.Drawing.Point(99, 345);
             this.lbl_address.Name = "lbl_address";
-            this.lbl_address.Size = new System.Drawing.Size(52, 15);
+            this.lbl_address.Size = new System.Drawing.Size(74, 18);
             this.lbl_address.TabIndex = 7;
             this.lbl_address.Text = "Address:";
             this.lbl_address.Click += new System.EventHandler(this.label8_Click);
@@ -130,9 +136,10 @@
             // 
             this.lbl_cnumber.AutoSize = true;
             this.lbl_cnumber.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            this.lbl_cnumber.Location = new System.Drawing.Point(43, 367);
+            this.lbl_cnumber.Font = new System.Drawing.Font("Verdana", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lbl_cnumber.Location = new System.Drawing.Point(56, 380);
             this.lbl_cnumber.Name = "lbl_cnumber";
-            this.lbl_cnumber.Size = new System.Drawing.Size(99, 15);
+            this.lbl_cnumber.Size = new System.Drawing.Size(138, 18);
             this.lbl_cnumber.TabIndex = 8;
             this.lbl_cnumber.Text = "Contact Number:";
             // 
@@ -140,9 +147,10 @@
             // 
             this.lbl_temp.AutoSize = true;
             this.lbl_temp.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            this.lbl_temp.Location = new System.Drawing.Point(66, 401);
+            this.lbl_temp.Font = new System.Drawing.Font("Verdana", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lbl_temp.Location = new System.Drawing.Point(496, 245);
             this.lbl_temp.Name = "lbl_temp";
-            this.lbl_temp.Size = new System.Drawing.Size(76, 15);
+            this.lbl_temp.Size = new System.Drawing.Size(109, 18);
             this.lbl_temp.TabIndex = 9;
             this.lbl_temp.Text = "Temperature:";
             // 
@@ -150,9 +158,10 @@
             // 
             this.lbl_gender.AutoSize = true;
             this.lbl_gender.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.lbl_gender.Font = new System.Drawing.Font("Verdana", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.lbl_gender.Location = new System.Drawing.Point(524, 182);
             this.lbl_gender.Name = "lbl_gender";
-            this.lbl_gender.Size = new System.Drawing.Size(48, 15);
+            this.lbl_gender.Size = new System.Drawing.Size(69, 18);
             this.lbl_gender.TabIndex = 10;
             this.lbl_gender.Text = "Gender:";
             // 
@@ -160,85 +169,88 @@
             // 
             this.lbl_dbirth.AutoSize = true;
             this.lbl_dbirth.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.lbl_dbirth.Font = new System.Drawing.Font("Verdana", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.lbl_dbirth.Location = new System.Drawing.Point(496, 214);
             this.lbl_dbirth.Name = "lbl_dbirth";
-            this.lbl_dbirth.Size = new System.Drawing.Size(76, 15);
+            this.lbl_dbirth.Size = new System.Drawing.Size(109, 18);
             this.lbl_dbirth.TabIndex = 11;
             this.lbl_dbirth.Text = "Date of Birth:";
             // 
             // txtbox_date
             // 
-            this.txtbox_date.Location = new System.Drawing.Point(150, 182);
+            this.txtbox_date.Location = new System.Drawing.Point(168, 182);
             this.txtbox_date.Name = "txtbox_date";
             this.txtbox_date.Size = new System.Drawing.Size(122, 23);
             this.txtbox_date.TabIndex = 12;
             // 
             // txtbox_time
             // 
-            this.txtbox_time.Location = new System.Drawing.Point(150, 211);
+            this.txtbox_time.Location = new System.Drawing.Point(168, 211);
             this.txtbox_time.Name = "txtbox_time";
             this.txtbox_time.Size = new System.Drawing.Size(77, 23);
             this.txtbox_time.TabIndex = 13;
             // 
             // txtbox_gsection
             // 
-            this.txtbox_gsection.Location = new System.Drawing.Point(148, 240);
+            this.txtbox_gsection.Location = new System.Drawing.Point(194, 245);
             this.txtbox_gsection.Name = "txtbox_gsection";
             this.txtbox_gsection.Size = new System.Drawing.Size(107, 23);
             this.txtbox_gsection.TabIndex = 14;
             // 
             // txtbox_pname
             // 
-            this.txtbox_pname.Location = new System.Drawing.Point(148, 269);
+            this.txtbox_pname.Location = new System.Drawing.Point(179, 277);
             this.txtbox_pname.Name = "txtbox_pname";
             this.txtbox_pname.Size = new System.Drawing.Size(193, 23);
             this.txtbox_pname.TabIndex = 15;
             // 
             // txtbox_gname
             // 
-            this.txtbox_gname.Location = new System.Drawing.Point(178, 298);
+            this.txtbox_gname.Location = new System.Drawing.Point(247, 311);
             this.txtbox_gname.Name = "txtbox_gname";
-            this.txtbox_gname.Size = new System.Drawing.Size(181, 23);
+            this.txtbox_gname.Size = new System.Drawing.Size(224, 23);
             this.txtbox_gname.TabIndex = 16;
             // 
             // txtbox_address
             // 
-            this.txtbox_address.Location = new System.Drawing.Point(148, 330);
+            this.txtbox_address.Location = new System.Drawing.Point(179, 345);
             this.txtbox_address.Name = "txtbox_address";
             this.txtbox_address.Size = new System.Drawing.Size(370, 23);
             this.txtbox_address.TabIndex = 17;
             // 
             // txtbox_cnumber
             // 
-            this.txtbox_cnumber.Location = new System.Drawing.Point(148, 364);
+            this.txtbox_cnumber.Location = new System.Drawing.Point(200, 380);
             this.txtbox_cnumber.Name = "txtbox_cnumber";
             this.txtbox_cnumber.Size = new System.Drawing.Size(235, 23);
             this.txtbox_cnumber.TabIndex = 18;
             // 
             // txtbox_temp
             // 
-            this.txtbox_temp.Location = new System.Drawing.Point(148, 393);
+            this.txtbox_temp.Location = new System.Drawing.Point(611, 245);
             this.txtbox_temp.Name = "txtbox_temp";
             this.txtbox_temp.Size = new System.Drawing.Size(159, 23);
             this.txtbox_temp.TabIndex = 19;
             // 
             // txtbox_gender
             // 
-            this.txtbox_gender.Location = new System.Drawing.Point(578, 179);
+            this.txtbox_gender.Location = new System.Drawing.Point(599, 182);
             this.txtbox_gender.Name = "txtbox_gender";
-            this.txtbox_gender.Size = new System.Drawing.Size(60, 23);
+            this.txtbox_gender.Size = new System.Drawing.Size(83, 23);
             this.txtbox_gender.TabIndex = 20;
             // 
             // txtbox_dbirth
             // 
-            this.txtbox_dbirth.Location = new System.Drawing.Point(578, 211);
+            this.txtbox_dbirth.Location = new System.Drawing.Point(611, 211);
             this.txtbox_dbirth.Name = "txtbox_dbirth";
             this.txtbox_dbirth.Size = new System.Drawing.Size(154, 23);
             this.txtbox_dbirth.TabIndex = 21;
+            this.txtbox_dbirth.TextChanged += new System.EventHandler(this.txtbox_dbirth_TextChanged);
             // 
             // btn_submit
             // 
             this.btn_submit.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.btn_submit.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btn_submit.Location = new System.Drawing.Point(618, 367);
             this.btn_submit.Name = "btn_submit";
             this.btn_submit.Size = new System.Drawing.Size(166, 46);

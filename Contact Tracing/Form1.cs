@@ -27,8 +27,18 @@ namespace Contact_Tracing
         {
             StreamWriter file = new StreamWriter(@"F:\Contract_Tracing\Contact_Tracing.txt", true);
             file.WriteLine("Date: " + txtbox_date.Text);
+            file.WriteLine("Time: " + txtbox_time.Text);
+            file.WriteLine("Gender: " + txtbox_gender.Text);
+            file.WriteLine("Date of Birth: " + txtbox_dbirth.Text);
+            file.WriteLine("Grade and Section: " + txtbox_gsection.Text);
+            file.WriteLine("Name of Pupil: " + txtbox_pname.Text);
+            file.WriteLine("Name of Parent/Guardian: " + txtbox_gname.Text);
+            file.WriteLine("Address: " + txtbox_address.Text);
+            file.WriteLine("Contact Number: " + txtbox_cnumber.Text);
+            file.WriteLine("Temperature: " + txtbox_temp.Text);
             file.Close();
             MessageBox.Show("Thank You For Your Response!", "Contact Tracing", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            
         }
     }
 }

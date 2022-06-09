@@ -16,5 +16,10 @@ namespace Contact_Tracing
         {
 
         }
+
+        private void lbl_ctracing_Click(object sender, EventArgs e)
+        {
+            StreamWriter file = new StreamWriter(@"F:\Contract_Tracing\test.txt", true);
+        }
     }
 }

@@ -30,7 +30,7 @@ namespace Contact_Tracing
             detail.WriteLine("Time: " + txtbox_time.Text);
             detail.WriteLine("Gender: " + txtbox_gender.Text);
             detail.WriteLine("Date of Birth: " + txtbox_dbirth.Text);
-            detail.WriteLine("Grade and Section: " + txtbox_gsection.Text);
+            detail.WriteLine("Course and Year: " + txtbox_cyear.Text);
             detail.WriteLine("Name of Pupil: " + txtbox_pname.Text);
             detail.WriteLine("Name of Parent/Guardian: " + txtbox_gname.Text);
             detail.WriteLine("Address: " + txtbox_address.Text);
@@ -38,7 +38,7 @@ namespace Contact_Tracing
             detail.WriteLine("Temperature: " + txtbox_temp.Text);
             detail.Close();
             MessageBox.Show("Thank You For Your Response!", "Contact Tracing", MessageBoxButtons.OK, MessageBoxIcon.Information);
-            txtbox_date.Text = txtbox_time.Text = txtbox_gender.Text = txtbox_dbirth.Text = txtbox_gsection.Text = txtbox_pname.Text = 
+            txtbox_date.Text = txtbox_time.Text = txtbox_gender.Text = txtbox_dbirth.Text = txtbox_cyear.Text = txtbox_pname.Text = 
             txtbox_gname.Text = txtbox_address.Text = txtbox_cnumber.Text = txtbox_temp.Text = "";
         }
 

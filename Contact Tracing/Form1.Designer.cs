@@ -32,7 +32,7 @@
             this.lbl_ctracing = new System.Windows.Forms.Label();
             this.lbl_date = new System.Windows.Forms.Label();
             this.lbl_time = new System.Windows.Forms.Label();
-            this.lbl_gsection = new System.Windows.Forms.Label();
+            this.lbl_cyear = new System.Windows.Forms.Label();
             this.lbl_pname = new System.Windows.Forms.Label();
             this.lbl_gname = new System.Windows.Forms.Label();
             this.lbl_address = new System.Windows.Forms.Label();
@@ -42,7 +42,7 @@
             this.lbl_dbirth = new System.Windows.Forms.Label();
             this.txtbox_date = new System.Windows.Forms.TextBox();
             this.txtbox_time = new System.Windows.Forms.TextBox();
-            this.txtbox_gsection = new System.Windows.Forms.TextBox();
+            this.txtbox_cyear = new System.Windows.Forms.TextBox();
             this.txtbox_pname = new System.Windows.Forms.TextBox();
             this.txtbox_gname = new System.Windows.Forms.TextBox();
             this.txtbox_address = new System.Windows.Forms.TextBox();
@@ -87,16 +87,16 @@
             this.lbl_time.TabIndex = 3;
             this.lbl_time.Text = "Time:";
             // 
-            // lbl_gsection
+            // lbl_cyear
             // 
-            this.lbl_gsection.AutoSize = true;
-            this.lbl_gsection.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            this.lbl_gsection.Font = new System.Drawing.Font("Verdana", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lbl_gsection.Location = new System.Drawing.Point(36, 245);
-            this.lbl_gsection.Name = "lbl_gsection";
-            this.lbl_gsection.Size = new System.Drawing.Size(152, 18);
-            this.lbl_gsection.TabIndex = 4;
-            this.lbl_gsection.Text = "Grade and Section:";
+            this.lbl_cyear.AutoSize = true;
+            this.lbl_cyear.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.lbl_cyear.Font = new System.Drawing.Font("Verdana", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lbl_cyear.Location = new System.Drawing.Point(36, 245);
+            this.lbl_cyear.Name = "lbl_cyear";
+            this.lbl_cyear.Size = new System.Drawing.Size(137, 18);
+            this.lbl_cyear.TabIndex = 4;
+            this.lbl_cyear.Text = "Course and Year:";
             // 
             // lbl_pname
             // 
@@ -190,12 +190,12 @@
             this.txtbox_time.Size = new System.Drawing.Size(77, 23);
             this.txtbox_time.TabIndex = 13;
             // 
-            // txtbox_gsection
+            // txtbox_cyear
             // 
-            this.txtbox_gsection.Location = new System.Drawing.Point(194, 245);
-            this.txtbox_gsection.Name = "txtbox_gsection";
-            this.txtbox_gsection.Size = new System.Drawing.Size(107, 23);
-            this.txtbox_gsection.TabIndex = 14;
+            this.txtbox_cyear.Location = new System.Drawing.Point(179, 240);
+            this.txtbox_cyear.Name = "txtbox_cyear";
+            this.txtbox_cyear.Size = new System.Drawing.Size(107, 23);
+            this.txtbox_cyear.TabIndex = 14;
             // 
             // txtbox_pname
             // 
@@ -274,7 +274,7 @@
             this.Controls.Add(this.txtbox_address);
             this.Controls.Add(this.txtbox_gname);
             this.Controls.Add(this.txtbox_pname);
-            this.Controls.Add(this.txtbox_gsection);
+            this.Controls.Add(this.txtbox_cyear);
             this.Controls.Add(this.txtbox_time);
             this.Controls.Add(this.txtbox_date);
             this.Controls.Add(this.lbl_dbirth);
@@ -284,7 +284,7 @@
             this.Controls.Add(this.lbl_address);
             this.Controls.Add(this.lbl_gname);
             this.Controls.Add(this.lbl_pname);
-            this.Controls.Add(this.lbl_gsection);
+            this.Controls.Add(this.lbl_cyear);
             this.Controls.Add(this.lbl_time);
             this.Controls.Add(this.lbl_date);
             this.Controls.Add(this.lbl_ctracing);
@@ -299,7 +299,7 @@
         private Label lbl_ctracing;
         private Label lbl_date;
         private Label lbl_time;
-        private Label lbl_gsection;
+        private Label lbl_cyear;
         private Label lbl_pname;
         private Label lbl_gname;
         private Label lbl_address;
@@ -309,7 +309,7 @@
         private Label lbl_dbirth;
         private TextBox txtbox_date;
         private TextBox txtbox_time;
-        private TextBox txtbox_gsection;
+        private TextBox txtbox_cyear;
         private TextBox txtbox_pname;
         private TextBox txtbox_gname;
         private TextBox txtbox_address;

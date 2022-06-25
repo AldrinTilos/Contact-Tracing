@@ -29,7 +29,7 @@ namespace Contact_Tracing
             detail.WriteLine("Contact Number: " + txtbox_cnumber.Text);
             detail.WriteLine("Temperature: " + txtbox_temp.Text);
             detail.Close();
-            MessageBox.Show("Thank You For Your Response!", "Contact Tracing", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            MessageBox.Show("Thank You For Your Response!: " + Environment.NewLine + "Date: " + txtbox_date.Text + Environment.NewLine + "Time: " + txtbox_time.Text + Environment.NewLine + "Course and Year: " + txtbox_cyear.Text + Environment.NewLine + "Name of Pupil: " + txtbox_pname.Text + Environment.NewLine + "Name of Guardian: " + txtbox_gname.Text + Environment.NewLine + "Address: " + txtbox_address.Text + Environment.NewLine + "Contact Number: " + txtbox_cnumber.Text + Environment.NewLine + "Gender: " + txtbox_gender.Text + Environment.NewLine + "Date of Birth: " + txtbox_dbirth.Text + Environment.NewLine + "Temperature: " + txtbox_temp.Text);
             txtbox_date.Text = txtbox_time.Text = txtbox_gender.Text = txtbox_dbirth.Text = txtbox_cyear.Text = txtbox_pname.Text = 
             txtbox_gname.Text = txtbox_address.Text = txtbox_cnumber.Text = txtbox_temp.Text = "";
         }

@@ -230,21 +230,21 @@
             this.txtbox_temp.Location = new System.Drawing.Point(611, 245);
             this.txtbox_temp.Name = "txtbox_temp";
             this.txtbox_temp.Size = new System.Drawing.Size(159, 23);
-            this.txtbox_temp.TabIndex = 19;
+            this.txtbox_temp.TabIndex = 21;
             // 
             // txtbox_gender
             // 
             this.txtbox_gender.Location = new System.Drawing.Point(599, 182);
             this.txtbox_gender.Name = "txtbox_gender";
             this.txtbox_gender.Size = new System.Drawing.Size(83, 23);
-            this.txtbox_gender.TabIndex = 20;
+            this.txtbox_gender.TabIndex = 19;
             // 
             // txtbox_dbirth
             // 
             this.txtbox_dbirth.Location = new System.Drawing.Point(611, 211);
             this.txtbox_dbirth.Name = "txtbox_dbirth";
             this.txtbox_dbirth.Size = new System.Drawing.Size(154, 23);
-            this.txtbox_dbirth.TabIndex = 21;
+            this.txtbox_dbirth.TabIndex = 20;
             this.txtbox_dbirth.TextChanged += new System.EventHandler(this.txtbox_dbirth_TextChanged);
             // 
             // btn_submit

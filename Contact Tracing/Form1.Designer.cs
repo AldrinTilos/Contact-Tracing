@@ -30,21 +30,21 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.lbl_ctracing = new System.Windows.Forms.Label();
-            this.lbl_date = new System.Windows.Forms.Label();
+            this.lbl_mname = new System.Windows.Forms.Label();
             this.lbl_time = new System.Windows.Forms.Label();
             this.lbl_cyear = new System.Windows.Forms.Label();
-            this.lbl_pname = new System.Windows.Forms.Label();
-            this.lbl_gname = new System.Windows.Forms.Label();
+            this.lbl_fname = new System.Windows.Forms.Label();
+            this.lbl_lname = new System.Windows.Forms.Label();
             this.lbl_address = new System.Windows.Forms.Label();
             this.lbl_cnumber = new System.Windows.Forms.Label();
             this.lbl_temp = new System.Windows.Forms.Label();
             this.lbl_gender = new System.Windows.Forms.Label();
             this.lbl_dbirth = new System.Windows.Forms.Label();
-            this.txtbox_date = new System.Windows.Forms.TextBox();
+            this.txtbox_mname = new System.Windows.Forms.TextBox();
             this.txtbox_time = new System.Windows.Forms.TextBox();
             this.txtbox_cyear = new System.Windows.Forms.TextBox();
-            this.txtbox_pname = new System.Windows.Forms.TextBox();
-            this.txtbox_gname = new System.Windows.Forms.TextBox();
+            this.txtbox_fname = new System.Windows.Forms.TextBox();
+            this.txtbox_lname = new System.Windows.Forms.TextBox();
             this.txtbox_address = new System.Windows.Forms.TextBox();
             this.txtbox_cnumber = new System.Windows.Forms.TextBox();
             this.txtbox_temp = new System.Windows.Forms.TextBox();
@@ -65,23 +65,23 @@
             this.lbl_ctracing.Text = "CONTACT TRACING";
             this.lbl_ctracing.Click += new System.EventHandler(this.lbl_ctracing_Click);
             // 
-            // lbl_date
+            // lbl_mname
             // 
-            this.lbl_date.AutoSize = true;
-            this.lbl_date.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            this.lbl_date.Font = new System.Drawing.Font("Verdana", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lbl_date.Location = new System.Drawing.Point(108, 187);
-            this.lbl_date.Name = "lbl_date";
-            this.lbl_date.Size = new System.Drawing.Size(50, 18);
-            this.lbl_date.TabIndex = 2;
-            this.lbl_date.Text = "Date:";
+            this.lbl_mname.AutoSize = true;
+            this.lbl_mname.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.lbl_mname.Font = new System.Drawing.Font("Verdana", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lbl_mname.Location = new System.Drawing.Point(6, 218);
+            this.lbl_mname.Name = "lbl_mname";
+            this.lbl_mname.Size = new System.Drawing.Size(110, 18);
+            this.lbl_mname.TabIndex = 2;
+            this.lbl_mname.Text = "Middle Name:";
             // 
             // lbl_time
             // 
             this.lbl_time.AutoSize = true;
             this.lbl_time.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.lbl_time.Font = new System.Drawing.Font("Verdana", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lbl_time.Location = new System.Drawing.Point(108, 218);
+            this.lbl_time.Location = new System.Drawing.Point(6, 383);
             this.lbl_time.Name = "lbl_time";
             this.lbl_time.Size = new System.Drawing.Size(51, 18);
             this.lbl_time.TabIndex = 3;
@@ -92,40 +92,40 @@
             this.lbl_cyear.AutoSize = true;
             this.lbl_cyear.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.lbl_cyear.Font = new System.Drawing.Font("Verdana", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lbl_cyear.Location = new System.Drawing.Point(36, 245);
+            this.lbl_cyear.Location = new System.Drawing.Point(6, 282);
             this.lbl_cyear.Name = "lbl_cyear";
             this.lbl_cyear.Size = new System.Drawing.Size(137, 18);
             this.lbl_cyear.TabIndex = 4;
             this.lbl_cyear.Text = "Course and Year:";
             // 
-            // lbl_pname
+            // lbl_fname
             // 
-            this.lbl_pname.AutoSize = true;
-            this.lbl_pname.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            this.lbl_pname.Font = new System.Drawing.Font("Verdana", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lbl_pname.Location = new System.Drawing.Point(56, 277);
-            this.lbl_pname.Name = "lbl_pname";
-            this.lbl_pname.Size = new System.Drawing.Size(117, 18);
-            this.lbl_pname.TabIndex = 5;
-            this.lbl_pname.Text = "Name of Pupil:";
+            this.lbl_fname.AutoSize = true;
+            this.lbl_fname.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.lbl_fname.Font = new System.Drawing.Font("Verdana", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lbl_fname.Location = new System.Drawing.Point(6, 187);
+            this.lbl_fname.Name = "lbl_fname";
+            this.lbl_fname.Size = new System.Drawing.Size(96, 18);
+            this.lbl_fname.TabIndex = 5;
+            this.lbl_fname.Text = "First Name:";
             // 
-            // lbl_gname
+            // lbl_lname
             // 
-            this.lbl_gname.AutoSize = true;
-            this.lbl_gname.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            this.lbl_gname.Font = new System.Drawing.Font("Verdana", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lbl_gname.Location = new System.Drawing.Point(36, 311);
-            this.lbl_gname.Name = "lbl_gname";
-            this.lbl_gname.Size = new System.Drawing.Size(205, 18);
-            this.lbl_gname.TabIndex = 6;
-            this.lbl_gname.Text = "Name of Guardian/Parent:";
+            this.lbl_lname.AutoSize = true;
+            this.lbl_lname.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.lbl_lname.Font = new System.Drawing.Font("Verdana", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lbl_lname.Location = new System.Drawing.Point(6, 250);
+            this.lbl_lname.Name = "lbl_lname";
+            this.lbl_lname.Size = new System.Drawing.Size(95, 18);
+            this.lbl_lname.TabIndex = 6;
+            this.lbl_lname.Text = "Last Name:";
             // 
             // lbl_address
             // 
             this.lbl_address.AutoSize = true;
             this.lbl_address.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.lbl_address.Font = new System.Drawing.Font("Verdana", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lbl_address.Location = new System.Drawing.Point(99, 345);
+            this.lbl_address.Location = new System.Drawing.Point(6, 316);
             this.lbl_address.Name = "lbl_address";
             this.lbl_address.Size = new System.Drawing.Size(74, 18);
             this.lbl_address.TabIndex = 7;
@@ -137,7 +137,7 @@
             this.lbl_cnumber.AutoSize = true;
             this.lbl_cnumber.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.lbl_cnumber.Font = new System.Drawing.Font("Verdana", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lbl_cnumber.Location = new System.Drawing.Point(56, 380);
+            this.lbl_cnumber.Location = new System.Drawing.Point(6, 350);
             this.lbl_cnumber.Name = "lbl_cnumber";
             this.lbl_cnumber.Size = new System.Drawing.Size(138, 18);
             this.lbl_cnumber.TabIndex = 8;
@@ -176,51 +176,51 @@
             this.lbl_dbirth.TabIndex = 11;
             this.lbl_dbirth.Text = "Date of Birth:";
             // 
-            // txtbox_date
+            // txtbox_mname
             // 
-            this.txtbox_date.Location = new System.Drawing.Point(168, 182);
-            this.txtbox_date.Name = "txtbox_date";
-            this.txtbox_date.Size = new System.Drawing.Size(122, 23);
-            this.txtbox_date.TabIndex = 12;
+            this.txtbox_mname.Location = new System.Drawing.Point(136, 214);
+            this.txtbox_mname.Name = "txtbox_mname";
+            this.txtbox_mname.Size = new System.Drawing.Size(122, 23);
+            this.txtbox_mname.TabIndex = 12;
             // 
             // txtbox_time
             // 
-            this.txtbox_time.Location = new System.Drawing.Point(168, 211);
+            this.txtbox_time.Location = new System.Drawing.Point(63, 378);
             this.txtbox_time.Name = "txtbox_time";
             this.txtbox_time.Size = new System.Drawing.Size(77, 23);
             this.txtbox_time.TabIndex = 13;
             // 
             // txtbox_cyear
             // 
-            this.txtbox_cyear.Location = new System.Drawing.Point(179, 240);
+            this.txtbox_cyear.Location = new System.Drawing.Point(161, 274);
             this.txtbox_cyear.Name = "txtbox_cyear";
             this.txtbox_cyear.Size = new System.Drawing.Size(107, 23);
             this.txtbox_cyear.TabIndex = 14;
             // 
-            // txtbox_pname
+            // txtbox_fname
             // 
-            this.txtbox_pname.Location = new System.Drawing.Point(179, 277);
-            this.txtbox_pname.Name = "txtbox_pname";
-            this.txtbox_pname.Size = new System.Drawing.Size(193, 23);
-            this.txtbox_pname.TabIndex = 15;
+            this.txtbox_fname.Location = new System.Drawing.Point(108, 182);
+            this.txtbox_fname.Name = "txtbox_fname";
+            this.txtbox_fname.Size = new System.Drawing.Size(193, 23);
+            this.txtbox_fname.TabIndex = 15;
             // 
-            // txtbox_gname
+            // txtbox_lname
             // 
-            this.txtbox_gname.Location = new System.Drawing.Point(247, 311);
-            this.txtbox_gname.Name = "txtbox_gname";
-            this.txtbox_gname.Size = new System.Drawing.Size(224, 23);
-            this.txtbox_gname.TabIndex = 16;
+            this.txtbox_lname.Location = new System.Drawing.Point(122, 245);
+            this.txtbox_lname.Name = "txtbox_lname";
+            this.txtbox_lname.Size = new System.Drawing.Size(224, 23);
+            this.txtbox_lname.TabIndex = 16;
             // 
             // txtbox_address
             // 
-            this.txtbox_address.Location = new System.Drawing.Point(179, 345);
+            this.txtbox_address.Location = new System.Drawing.Point(86, 311);
             this.txtbox_address.Name = "txtbox_address";
             this.txtbox_address.Size = new System.Drawing.Size(370, 23);
             this.txtbox_address.TabIndex = 17;
             // 
             // txtbox_cnumber
             // 
-            this.txtbox_cnumber.Location = new System.Drawing.Point(200, 380);
+            this.txtbox_cnumber.Location = new System.Drawing.Point(161, 350);
             this.txtbox_cnumber.Name = "txtbox_cnumber";
             this.txtbox_cnumber.Size = new System.Drawing.Size(235, 23);
             this.txtbox_cnumber.TabIndex = 18;
@@ -272,21 +272,21 @@
             this.Controls.Add(this.txtbox_temp);
             this.Controls.Add(this.txtbox_cnumber);
             this.Controls.Add(this.txtbox_address);
-            this.Controls.Add(this.txtbox_gname);
-            this.Controls.Add(this.txtbox_pname);
+            this.Controls.Add(this.txtbox_lname);
+            this.Controls.Add(this.txtbox_fname);
             this.Controls.Add(this.txtbox_cyear);
             this.Controls.Add(this.txtbox_time);
-            this.Controls.Add(this.txtbox_date);
+            this.Controls.Add(this.txtbox_mname);
             this.Controls.Add(this.lbl_dbirth);
             this.Controls.Add(this.lbl_gender);
             this.Controls.Add(this.lbl_temp);
             this.Controls.Add(this.lbl_cnumber);
             this.Controls.Add(this.lbl_address);
-            this.Controls.Add(this.lbl_gname);
-            this.Controls.Add(this.lbl_pname);
+            this.Controls.Add(this.lbl_lname);
+            this.Controls.Add(this.lbl_fname);
             this.Controls.Add(this.lbl_cyear);
             this.Controls.Add(this.lbl_time);
-            this.Controls.Add(this.lbl_date);
+            this.Controls.Add(this.lbl_mname);
             this.Controls.Add(this.lbl_ctracing);
             this.Name = "Form1";
             this.Text = "Contact Tracing";
@@ -297,21 +297,21 @@
 
         #endregion
         private Label lbl_ctracing;
-        private Label lbl_date;
+        private Label lbl_mname;
         private Label lbl_time;
         private Label lbl_cyear;
-        private Label lbl_pname;
-        private Label lbl_gname;
+        private Label lbl_fname;
+        private Label lbl_lname;
         private Label lbl_address;
         private Label lbl_cnumber;
         private Label lbl_temp;
         private Label lbl_gender;
         private Label lbl_dbirth;
-        private TextBox txtbox_date;
+        private TextBox txtbox_mname;
         private TextBox txtbox_time;
         private TextBox txtbox_cyear;
-        private TextBox txtbox_pname;
-        private TextBox txtbox_gname;
+        private TextBox txtbox_fname;
+        private TextBox txtbox_lname;
         private TextBox txtbox_address;
         private TextBox txtbox_cnumber;
         private TextBox txtbox_temp;

@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\tilos\\source\\repos\\Contact Tracing\\Contact Tracing\\Contact Tracing.csproj",
+      "projectUniqueName": "C:\\Users\\tilos\\source\\repos\\Contact Tracing (orig)\\Contact Tracing\\Contact Tracing.csproj",
       "projectName": "Contact Tracing",
-      "projectPath": "C:\\Users\\tilos\\source\\repos\\Contact Tracing\\Contact Tracing\\Contact Tracing.csproj",
+      "projectPath": "C:\\Users\\tilos\\source\\repos\\Contact Tracing (orig)\\Contact Tracing\\Contact Tracing.csproj",
       "packagesPath": "C:\\Users\\tilos\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\tilos\\source\\repos\\Contact Tracing\\Contact Tracing\\obj\\",
+      "outputPath": "C:\\Users\\tilos\\source\\repos\\Contact Tracing (orig)\\Contact Tracing\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

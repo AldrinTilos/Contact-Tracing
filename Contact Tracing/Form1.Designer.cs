@@ -52,6 +52,7 @@
             this.txtbox_dbirth = new System.Windows.Forms.TextBox();
             this.btn_submit = new System.Windows.Forms.Button();
             this.dtp_date = new System.Windows.Forms.DateTimePicker();
+            this.btn_admin = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lbl_ctracing
@@ -268,6 +269,18 @@
             this.dtp_date.Size = new System.Drawing.Size(207, 23);
             this.dtp_date.TabIndex = 12;
             // 
+            // btn_admin
+            // 
+            this.btn_admin.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.btn_admin.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
+            this.btn_admin.Location = new System.Drawing.Point(809, 418);
+            this.btn_admin.Name = "btn_admin";
+            this.btn_admin.Size = new System.Drawing.Size(96, 34);
+            this.btn_admin.TabIndex = 13;
+            this.btn_admin.Text = "Admin Only";
+            this.btn_admin.UseVisualStyleBackColor = false;
+            this.btn_admin.Click += new System.EventHandler(this.btn_admin_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -275,6 +288,7 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(917, 464);
+            this.Controls.Add(this.btn_admin);
             this.Controls.Add(this.dtp_date);
             this.Controls.Add(this.btn_submit);
             this.Controls.Add(this.txtbox_dbirth);
@@ -329,5 +343,6 @@
         private TextBox txtbox_dbirth;
         private Button btn_submit;
         private DateTimePicker dtp_date;
+        private Button btn_admin;
     }
 }

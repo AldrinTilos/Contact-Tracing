@@ -37,5 +37,10 @@ namespace Contact_Tracing
         private void txtbox_dbirth_TextChanged(object sender, EventArgs e)
         {
         }
+
+        private void txtbox_time_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

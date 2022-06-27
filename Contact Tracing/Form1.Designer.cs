@@ -51,6 +51,7 @@
             this.txtbox_gender = new System.Windows.Forms.TextBox();
             this.txtbox_dbirth = new System.Windows.Forms.TextBox();
             this.btn_submit = new System.Windows.Forms.Button();
+            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.SuspendLayout();
             // 
             // lbl_ctracing
@@ -180,84 +181,92 @@
             // 
             this.txtbox_mname.Location = new System.Drawing.Point(136, 214);
             this.txtbox_mname.Name = "txtbox_mname";
-            this.txtbox_mname.Size = new System.Drawing.Size(122, 23);
-            this.txtbox_mname.TabIndex = 12;
+            this.txtbox_mname.Size = new System.Drawing.Size(210, 23);
+            this.txtbox_mname.TabIndex = 2;
             // 
             // txtbox_time
             // 
-            this.txtbox_time.Location = new System.Drawing.Point(63, 378);
+            this.txtbox_time.Location = new System.Drawing.Point(63, 380);
             this.txtbox_time.Name = "txtbox_time";
             this.txtbox_time.Size = new System.Drawing.Size(77, 23);
-            this.txtbox_time.TabIndex = 13;
+            this.txtbox_time.TabIndex = 7;
+            this.txtbox_time.TextChanged += new System.EventHandler(this.txtbox_time_TextChanged);
             // 
             // txtbox_cyear
             // 
-            this.txtbox_cyear.Location = new System.Drawing.Point(161, 274);
+            this.txtbox_cyear.Location = new System.Drawing.Point(161, 277);
             this.txtbox_cyear.Name = "txtbox_cyear";
             this.txtbox_cyear.Size = new System.Drawing.Size(107, 23);
-            this.txtbox_cyear.TabIndex = 14;
+            this.txtbox_cyear.TabIndex = 4;
             // 
             // txtbox_fname
             // 
             this.txtbox_fname.Location = new System.Drawing.Point(108, 182);
             this.txtbox_fname.Name = "txtbox_fname";
             this.txtbox_fname.Size = new System.Drawing.Size(193, 23);
-            this.txtbox_fname.TabIndex = 15;
+            this.txtbox_fname.TabIndex = 1;
             // 
             // txtbox_lname
             // 
             this.txtbox_lname.Location = new System.Drawing.Point(122, 245);
             this.txtbox_lname.Name = "txtbox_lname";
             this.txtbox_lname.Size = new System.Drawing.Size(224, 23);
-            this.txtbox_lname.TabIndex = 16;
+            this.txtbox_lname.TabIndex = 3;
             // 
             // txtbox_address
             // 
             this.txtbox_address.Location = new System.Drawing.Point(86, 311);
             this.txtbox_address.Name = "txtbox_address";
-            this.txtbox_address.Size = new System.Drawing.Size(370, 23);
-            this.txtbox_address.TabIndex = 17;
+            this.txtbox_address.Size = new System.Drawing.Size(392, 23);
+            this.txtbox_address.TabIndex = 5;
             // 
             // txtbox_cnumber
             // 
-            this.txtbox_cnumber.Location = new System.Drawing.Point(161, 350);
+            this.txtbox_cnumber.Location = new System.Drawing.Point(161, 345);
             this.txtbox_cnumber.Name = "txtbox_cnumber";
             this.txtbox_cnumber.Size = new System.Drawing.Size(235, 23);
-            this.txtbox_cnumber.TabIndex = 18;
+            this.txtbox_cnumber.TabIndex = 6;
             // 
             // txtbox_temp
             // 
             this.txtbox_temp.Location = new System.Drawing.Point(611, 245);
             this.txtbox_temp.Name = "txtbox_temp";
             this.txtbox_temp.Size = new System.Drawing.Size(159, 23);
-            this.txtbox_temp.TabIndex = 21;
+            this.txtbox_temp.TabIndex = 10;
             // 
             // txtbox_gender
             // 
             this.txtbox_gender.Location = new System.Drawing.Point(599, 182);
             this.txtbox_gender.Name = "txtbox_gender";
             this.txtbox_gender.Size = new System.Drawing.Size(83, 23);
-            this.txtbox_gender.TabIndex = 19;
+            this.txtbox_gender.TabIndex = 8;
             // 
             // txtbox_dbirth
             // 
             this.txtbox_dbirth.Location = new System.Drawing.Point(611, 211);
             this.txtbox_dbirth.Name = "txtbox_dbirth";
             this.txtbox_dbirth.Size = new System.Drawing.Size(154, 23);
-            this.txtbox_dbirth.TabIndex = 20;
+            this.txtbox_dbirth.TabIndex = 9;
             this.txtbox_dbirth.TextChanged += new System.EventHandler(this.txtbox_dbirth_TextChanged);
             // 
             // btn_submit
             // 
             this.btn_submit.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.btn_submit.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btn_submit.Location = new System.Drawing.Point(618, 367);
+            this.btn_submit.Location = new System.Drawing.Point(611, 295);
             this.btn_submit.Name = "btn_submit";
             this.btn_submit.Size = new System.Drawing.Size(166, 46);
-            this.btn_submit.TabIndex = 22;
+            this.btn_submit.TabIndex = 11;
             this.btn_submit.Text = "Submit";
             this.btn_submit.UseVisualStyleBackColor = false;
             this.btn_submit.Click += new System.EventHandler(this.btn_submit_Click);
+            // 
+            // dateTimePicker1
+            // 
+            this.dateTimePicker1.Location = new System.Drawing.Point(146, 380);
+            this.dateTimePicker1.Name = "dateTimePicker1";
+            this.dateTimePicker1.Size = new System.Drawing.Size(207, 23);
+            this.dateTimePicker1.TabIndex = 12;
             // 
             // Form1
             // 
@@ -266,6 +275,7 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(917, 464);
+            this.Controls.Add(this.dateTimePicker1);
             this.Controls.Add(this.btn_submit);
             this.Controls.Add(this.txtbox_dbirth);
             this.Controls.Add(this.txtbox_gender);
@@ -318,5 +328,6 @@
         private TextBox txtbox_gender;
         private TextBox txtbox_dbirth;
         private Button btn_submit;
+        private DateTimePicker dateTimePicker1;
     }
 }

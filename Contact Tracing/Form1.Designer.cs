@@ -51,7 +51,7 @@
             this.txtbox_gender = new System.Windows.Forms.TextBox();
             this.txtbox_dbirth = new System.Windows.Forms.TextBox();
             this.btn_submit = new System.Windows.Forms.Button();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.dtp_date = new System.Windows.Forms.DateTimePicker();
             this.SuspendLayout();
             // 
             // lbl_ctracing
@@ -261,12 +261,12 @@
             this.btn_submit.UseVisualStyleBackColor = false;
             this.btn_submit.Click += new System.EventHandler(this.btn_submit_Click);
             // 
-            // dateTimePicker1
+            // dtp_date
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(146, 380);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(207, 23);
-            this.dateTimePicker1.TabIndex = 12;
+            this.dtp_date.Location = new System.Drawing.Point(146, 380);
+            this.dtp_date.Name = "dtp_date";
+            this.dtp_date.Size = new System.Drawing.Size(207, 23);
+            this.dtp_date.TabIndex = 12;
             // 
             // Form1
             // 
@@ -275,7 +275,7 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(917, 464);
-            this.Controls.Add(this.dateTimePicker1);
+            this.Controls.Add(this.dtp_date);
             this.Controls.Add(this.btn_submit);
             this.Controls.Add(this.txtbox_dbirth);
             this.Controls.Add(this.txtbox_gender);
@@ -328,6 +328,6 @@
         private TextBox txtbox_gender;
         private TextBox txtbox_dbirth;
         private Button btn_submit;
-        private DateTimePicker dateTimePicker1;
+        private DateTimePicker dtp_date;
     }
 }

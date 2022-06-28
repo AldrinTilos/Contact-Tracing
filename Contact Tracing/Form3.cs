@@ -17,9 +17,41 @@ namespace Contact_Tracing
             InitializeComponent();
         }
 
-        private void button3_Click(object sender, EventArgs e)
+        private void btn_search_Click(object sender, EventArgs e)
         {
-
+            List<string> Name = new List<string>();
+            string AllName = txtbox_search.Text;
+            int ListName = 0;
+            var txtList = Directory.EnumerateFiles(@"F:\Contact Tracing List\List Name");
+            foreach (string folder in txtList)
+            {
+                string List = File.ReadAllText(folder);
+                if (List.Contains(AllName))
+                {
+                    var Allname = List.Substring(List.IndexOf("=") + 1);
+                    ListName++;
+                    Name.Add(List);
+                    continue;
+                }
+            }
+            if (ListName == 0)
+            {
+                MessageBox.Show("No Records Found");
+            }
+            else
+            {
+                StreamWriter folder = new StreamWriter(@"F:\Contact Tracing List\Search List\Search_Name.txt");
+                foreach (string list in Name)
+                {
+                    _ = Name.LastOrDefault();
+                    folder.WriteLine(list);
+                }
+                folder.Close();
+                MessageBox.Show("Found " + ListName + " Record/s on the List");
+                MessageBox.Show("This File Will be Saved in Search List Folder");
+                Form4 Allname = new Form4();
+                Allname.ShowDialog();
+            }
         }
     }
 }

@@ -17,7 +17,7 @@ namespace Contact_Tracing
         }
         private void btn_submit_Click(object sender, EventArgs e)
         {
-            StreamWriter detail = new StreamWriter(@"F:\Contact Tracing List\" + txtbox_lname.Text + txtbox_fname.Text + ".txt", true);
+            StreamWriter detail = new StreamWriter(@"F:\Contact Tracing List\List Name\" + txtbox_lname.Text + txtbox_fname.Text + ".txt", true);
             detail.WriteLine("Date: " + dtp_date.Text);
             detail.WriteLine("Time: " + txtbox_time.Text);
             detail.WriteLine("");
@@ -38,7 +38,6 @@ namespace Contact_Tracing
             txtbox_lname.Text = txtbox_address.Text = txtbox_cnumber.Text = txtbox_temp.Text = "";
             detail.Close();
             Application.Restart();
-            Environment.Exit(0);
         }
         
         private void txtbox_dbirth_TextChanged(object sender, EventArgs e)

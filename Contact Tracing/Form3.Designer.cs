@@ -82,6 +82,7 @@
             this.btn_date.TabIndex = 8;
             this.btn_date.Text = "Enter";
             this.btn_date.UseVisualStyleBackColor = true;
+            this.btn_date.Click += new System.EventHandler(this.btn_date_Click);
             // 
             // btn_all
             // 

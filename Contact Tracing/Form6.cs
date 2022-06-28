@@ -15,7 +15,12 @@ namespace Contact_Tracing
         public Form6()
         {
             InitializeComponent();
-
+            var txt_all = Directory.GetFiles(@"F:\Contact Tracing List\List Name");
+            foreach (string folder in txt_all)
+            {
+                string All = File.ReadAllText(folder);
+                lbl_all.Text = lbl_all.Text + All + "\n";
+            }
         }
     }
 }

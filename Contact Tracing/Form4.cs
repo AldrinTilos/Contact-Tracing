@@ -15,8 +15,8 @@ namespace Contact_Tracing
         public Form4()
         {
             InitializeComponent();
-            var SearchList = Directory.GetFiles(@"F:\Contact Tracing List\Search List\");
-            foreach (string file in SearchList)
+            var Search_List = Directory.GetFiles(@"F:\Contact Tracing List\Search List\");
+            foreach (string file in Search_List)
             {
                 string List = File.ReadAllText(file);
                 lbl_search.Text = lbl_search.Text + List + "\n";

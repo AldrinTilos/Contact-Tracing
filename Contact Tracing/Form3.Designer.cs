@@ -93,6 +93,7 @@
             this.btn_all.TabIndex = 9;
             this.btn_all.Text = "Enter";
             this.btn_all.UseVisualStyleBackColor = true;
+            this.btn_all.Click += new System.EventHandler(this.btn_all_Click);
             // 
             // lbl_all
             // 

@@ -15,6 +15,7 @@ namespace Contact_Tracing
         public Form6()
         {
             InitializeComponent();
+
         }
     }
 }

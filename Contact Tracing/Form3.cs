@@ -90,5 +90,11 @@ namespace Contact_Tracing
                 date.ShowDialog();
             }
         }
+
+        private void btn_all_Click(object sender, EventArgs e)
+        {
+            Form6 all = new Form6();
+            all.ShowDialog();
+        }
     }
 }

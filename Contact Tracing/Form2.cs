@@ -35,6 +35,7 @@ namespace Contact_Tracing
             {
                 MessageBox.Show("Your User or Password is Incorrect Please Try Again", "Login Failed");
             }
+            Environment.Exit(0);
         }
     }
 }

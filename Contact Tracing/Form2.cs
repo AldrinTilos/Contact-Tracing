@@ -17,6 +17,24 @@ namespace Contact_Tracing
             InitializeComponent();
         }
 
-       
+        private void btn_admin_Click(object sender, EventArgs e)
+        {
+            String user = txtbox_user.Text;
+            String pass = txtbox_pass.Text;
+            if (user == "admin")
+                if (pass == "password")
+                {
+                    Form3 info = new Form3();
+                    info.ShowDialog();
+                }
+                else
+                {
+                    MessageBox.Show("Your User or Password is Incorrect Please Try Again", "Login Failed");
+                }
+            else
+            {
+                MessageBox.Show("Your User or Password is Incorrect Please Try Again", "Login Failed");
+            }
+        }
     }
 }

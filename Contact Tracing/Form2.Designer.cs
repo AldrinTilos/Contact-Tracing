@@ -75,6 +75,7 @@
             this.btn_admin.TabIndex = 4;
             this.btn_admin.Text = "Enter";
             this.btn_admin.UseVisualStyleBackColor = true;
+            this.btn_admin.Click += new System.EventHandler(this.btn_admin_Click);
             // 
             // Form2
             // 

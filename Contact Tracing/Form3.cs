@@ -36,7 +36,7 @@ namespace Contact_Tracing
             }
             if (ListName == 0)
             {
-                MessageBox.Show("No Records Found");
+                MessageBox.Show("No Record/s Found");
             }
             else
             {
@@ -73,7 +73,7 @@ namespace Contact_Tracing
             }
             if (ListDate == 0)
             {
-                MessageBox.Show("No records found on the selected date");
+                MessageBox.Show("No Record/s Found");
             }
             else
             {
@@ -84,8 +84,8 @@ namespace Contact_Tracing
                     folder.WriteLine(List);
                 }
                 folder.Close();
-                MessageBox.Show("Found " + ListDate + " record(s) on the selected date");
-                MessageBox.Show("This file will be saved in the Date folder");
+                MessageBox.Show("Found " + ListDate + " Record/s on the List");
+                MessageBox.Show("This File Will be Saved in Date List Folder");
                 Form5 date = new Form5();
                 date.ShowDialog();
             }

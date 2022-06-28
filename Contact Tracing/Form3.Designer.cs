@@ -42,10 +42,10 @@
             // lbl_date
             // 
             this.lbl_date.AutoSize = true;
-            this.lbl_date.Font = new System.Drawing.Font("Swis721 Blk BT", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lbl_date.Location = new System.Drawing.Point(131, 227);
+            this.lbl_date.Font = new System.Drawing.Font("Swis721 BlkCn BT", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lbl_date.Location = new System.Drawing.Point(147, 224);
             this.lbl_date.Name = "lbl_date";
-            this.lbl_date.Size = new System.Drawing.Size(179, 22);
+            this.lbl_date.Size = new System.Drawing.Size(137, 22);
             this.lbl_date.TabIndex = 0;
             this.lbl_date.Text = "Search For Date";
             // 
@@ -66,16 +66,16 @@
             // lbl_search
             // 
             this.lbl_search.AutoSize = true;
-            this.lbl_search.Font = new System.Drawing.Font("Swis721 Blk BT", 26.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
-            this.lbl_search.Location = new System.Drawing.Point(283, 83);
+            this.lbl_search.Font = new System.Drawing.Font("Swis721 BlkCn BT", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lbl_search.Location = new System.Drawing.Point(283, 79);
             this.lbl_search.Name = "lbl_search";
-            this.lbl_search.Size = new System.Drawing.Size(227, 43);
+            this.lbl_search.Size = new System.Drawing.Size(177, 42);
             this.lbl_search.TabIndex = 7;
             this.lbl_search.Text = "Search Bar";
             // 
             // btn_date
             // 
-            this.btn_date.Font = new System.Drawing.Font("Swis721 Blk BT", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btn_date.Font = new System.Drawing.Font("Swis721 BlkCn BT", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btn_date.Location = new System.Drawing.Point(147, 304);
             this.btn_date.Name = "btn_date";
             this.btn_date.Size = new System.Drawing.Size(135, 38);
@@ -86,8 +86,8 @@
             // 
             // btn_all
             // 
-            this.btn_all.Font = new System.Drawing.Font("Swis721 Blk BT", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btn_all.Location = new System.Drawing.Point(489, 304);
+            this.btn_all.Font = new System.Drawing.Font("Swis721 BlkCn BT", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btn_all.Location = new System.Drawing.Point(526, 255);
             this.btn_all.Name = "btn_all";
             this.btn_all.Size = new System.Drawing.Size(135, 38);
             this.btn_all.TabIndex = 9;
@@ -98,10 +98,10 @@
             // lbl_all
             // 
             this.lbl_all.AutoSize = true;
-            this.lbl_all.Font = new System.Drawing.Font("Swis721 Blk BT", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lbl_all.Location = new System.Drawing.Point(464, 261);
+            this.lbl_all.Font = new System.Drawing.Font("Swis721 BlkCn BT", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lbl_all.Location = new System.Drawing.Point(397, 262);
             this.lbl_all.Name = "lbl_all";
-            this.lbl_all.Size = new System.Drawing.Size(160, 22);
+            this.lbl_all.Size = new System.Drawing.Size(123, 22);
             this.lbl_all.TabIndex = 10;
             this.lbl_all.Text = "Search All List";
             // 
@@ -124,6 +124,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
+            this.BackColor = System.Drawing.Color.LightSteelBlue;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.btn_search);
             this.Controls.Add(this.lbl_all);
@@ -133,8 +134,9 @@
             this.Controls.Add(this.txtbox_search);
             this.Controls.Add(this.dtp_date);
             this.Controls.Add(this.lbl_date);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form3";
-            this.Text = "Form3";
+            this.Text = "Admin";
             this.ResumeLayout(false);
             this.PerformLayout();
 

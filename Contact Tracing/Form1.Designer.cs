@@ -313,6 +313,7 @@
             this.Controls.Add(this.lbl_time);
             this.Controls.Add(this.lbl_mname);
             this.Controls.Add(this.lbl_ctracing);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
             this.Text = "Contact Tracing";
             this.ResumeLayout(false);

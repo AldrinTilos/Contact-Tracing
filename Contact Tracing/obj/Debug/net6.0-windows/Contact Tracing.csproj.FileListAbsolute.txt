@@ -34,3 +34,5 @@ C:\Users\tilos\source\repos\Contact Tracing (orig)\Contact Tracing\obj\Debug\net
 C:\Users\tilos\source\repos\Contact Tracing (orig)\Contact Tracing\obj\Debug\net6.0-windows\Contact Tracing.pdb
 C:\Users\tilos\source\repos\Contact Tracing (orig)\Contact Tracing\obj\Debug\net6.0-windows\Contact Tracing.genruntimeconfig.cache
 C:\Users\tilos\source\repos\Contact Tracing (orig)\Contact Tracing\obj\Debug\net6.0-windows\ref\Contact Tracing.dll
+C:\Users\tilos\source\repos\Contact Tracing (orig)\Contact Tracing\obj\Debug\net6.0-windows\Contact_Tracing.Form2.resources
+C:\Users\tilos\source\repos\Contact Tracing (orig)\Contact Tracing\obj\Debug\net6.0-windows\Contact_Tracing.Form3.resources

@@ -92,5 +92,23 @@ namespace Contact_Tracing
                 cb_camera.Items.Add(filterInfo.Name);
             cb_camera.SelectedIndex = 0;
         }
+
+        private void btn_start_Click(object sender, EventArgs e)
+        {
+            captureDevice = new VideoCaptureDevice(filterInfoCollection[cb_camera.SelectedIndex].MonikerString);
+            captureDevice.NewFrame += CaptureDevice_NewFrame;
+            captureDevice.Start();
+        }
+
+        private void CaptureDevice_NewFrame(object sender, NewFrameEventArgs eventArgs)
+        {
+            throw new NotImplementedException();
+        }
+
+        private void Form1_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            Application.Exit();
+            Environment.Exit(0);
+        }
     }
 }

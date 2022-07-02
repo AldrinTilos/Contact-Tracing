@@ -337,6 +337,7 @@
             this.btn_start.TabIndex = 19;
             this.btn_start.Text = "&Start";
             this.btn_start.UseVisualStyleBackColor = false;
+            this.btn_start.Click += new System.EventHandler(this.btn_start_Click);
             // 
             // lbl_QRCode
             // 
@@ -403,6 +404,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
             this.Text = "Contact Tracing";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing);
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pcb_scanner)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pcb_generate)).EndInit();

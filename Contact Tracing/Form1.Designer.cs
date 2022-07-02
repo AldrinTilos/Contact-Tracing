@@ -60,7 +60,7 @@
             this.lbl_ctracing.AutoSize = true;
             this.lbl_ctracing.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.lbl_ctracing.Font = new System.Drawing.Font("Verdana", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point);
-            this.lbl_ctracing.Location = new System.Drawing.Point(336, 134);
+            this.lbl_ctracing.Location = new System.Drawing.Point(395, 150);
             this.lbl_ctracing.Name = "lbl_ctracing";
             this.lbl_ctracing.Size = new System.Drawing.Size(269, 29);
             this.lbl_ctracing.TabIndex = 1;
@@ -150,7 +150,7 @@
             this.lbl_temp.AutoSize = true;
             this.lbl_temp.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.lbl_temp.Font = new System.Drawing.Font("Verdana", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lbl_temp.Location = new System.Drawing.Point(496, 245);
+            this.lbl_temp.Location = new System.Drawing.Point(7, 464);
             this.lbl_temp.Name = "lbl_temp";
             this.lbl_temp.Size = new System.Drawing.Size(109, 18);
             this.lbl_temp.TabIndex = 9;
@@ -161,7 +161,7 @@
             this.lbl_gender.AutoSize = true;
             this.lbl_gender.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.lbl_gender.Font = new System.Drawing.Font("Verdana", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lbl_gender.Location = new System.Drawing.Point(524, 182);
+            this.lbl_gender.Location = new System.Drawing.Point(6, 406);
             this.lbl_gender.Name = "lbl_gender";
             this.lbl_gender.Size = new System.Drawing.Size(69, 18);
             this.lbl_gender.TabIndex = 10;
@@ -172,7 +172,7 @@
             this.lbl_dbirth.AutoSize = true;
             this.lbl_dbirth.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.lbl_dbirth.Font = new System.Drawing.Font("Verdana", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lbl_dbirth.Location = new System.Drawing.Point(496, 214);
+            this.lbl_dbirth.Location = new System.Drawing.Point(7, 438);
             this.lbl_dbirth.Name = "lbl_dbirth";
             this.lbl_dbirth.Size = new System.Drawing.Size(109, 18);
             this.lbl_dbirth.TabIndex = 11;
@@ -230,21 +230,21 @@
             // 
             // txtbox_temp
             // 
-            this.txtbox_temp.Location = new System.Drawing.Point(611, 245);
+            this.txtbox_temp.Location = new System.Drawing.Point(122, 464);
             this.txtbox_temp.Name = "txtbox_temp";
             this.txtbox_temp.Size = new System.Drawing.Size(159, 23);
             this.txtbox_temp.TabIndex = 10;
             // 
             // txtbox_gender
             // 
-            this.txtbox_gender.Location = new System.Drawing.Point(599, 182);
+            this.txtbox_gender.Location = new System.Drawing.Point(86, 406);
             this.txtbox_gender.Name = "txtbox_gender";
             this.txtbox_gender.Size = new System.Drawing.Size(83, 23);
             this.txtbox_gender.TabIndex = 8;
             // 
             // txtbox_dbirth
             // 
-            this.txtbox_dbirth.Location = new System.Drawing.Point(611, 211);
+            this.txtbox_dbirth.Location = new System.Drawing.Point(122, 435);
             this.txtbox_dbirth.Name = "txtbox_dbirth";
             this.txtbox_dbirth.Size = new System.Drawing.Size(154, 23);
             this.txtbox_dbirth.TabIndex = 9;
@@ -254,9 +254,9 @@
             // 
             this.btn_submit.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.btn_submit.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btn_submit.Location = new System.Drawing.Point(611, 295);
+            this.btn_submit.Location = new System.Drawing.Point(75, 493);
             this.btn_submit.Name = "btn_submit";
-            this.btn_submit.Size = new System.Drawing.Size(166, 46);
+            this.btn_submit.Size = new System.Drawing.Size(152, 44);
             this.btn_submit.TabIndex = 11;
             this.btn_submit.Text = "Submit";
             this.btn_submit.UseVisualStyleBackColor = false;
@@ -273,7 +273,7 @@
             // 
             this.btn_admin.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.btn_admin.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
-            this.btn_admin.Location = new System.Drawing.Point(809, 418);
+            this.btn_admin.Location = new System.Drawing.Point(5, 3);
             this.btn_admin.Name = "btn_admin";
             this.btn_admin.Size = new System.Drawing.Size(96, 34);
             this.btn_admin.TabIndex = 13;
@@ -288,7 +288,7 @@
             this.AutoScroll = true;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(917, 464);
+            this.ClientSize = new System.Drawing.Size(1037, 540);
             this.Controls.Add(this.btn_admin);
             this.Controls.Add(this.dtp_date);
             this.Controls.Add(this.btn_submit);

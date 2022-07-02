@@ -75,7 +75,7 @@ namespace Contact_Tracing
 
         private void btn_generate_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("This will be generated into a QR Code");
+            MessageBox.Show("This Info will Generated into QR Code");
             QRCodeGenerator QRCode = new QRCodeGenerator();
             QRCodeData Generate = QRCode.CreateQrCode(Environment.NewLine + "Date: " + dtp_date.Text + Environment.NewLine + "Time: " + txtbox_time.Text + Environment.NewLine + "" +
             Environment.NewLine + "First Name: " + txtbox_fname.Text + Environment.NewLine + "Middle Name: " + txtbox_mname.Text + Environment.NewLine + "Last Name: " + txtbox_lname.Text +

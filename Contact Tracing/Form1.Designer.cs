@@ -294,6 +294,7 @@
             // 
             // pcb_scanner
             // 
+            this.pcb_scanner.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pcb_scanner.Location = new System.Drawing.Point(12, 433);
             this.pcb_scanner.Name = "pcb_scanner";
             this.pcb_scanner.Size = new System.Drawing.Size(447, 333);
@@ -322,6 +323,7 @@
             // 
             // pcb_generate
             // 
+            this.pcb_generate.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pcb_generate.Location = new System.Drawing.Point(586, 425);
             this.pcb_generate.Name = "pcb_generate";
             this.pcb_generate.Size = new System.Drawing.Size(440, 341);

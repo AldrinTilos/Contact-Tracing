@@ -98,17 +98,48 @@ namespace Contact_Tracing
             captureDevice = new VideoCaptureDevice(filterInfoCollection[cb_camera.SelectedIndex].MonikerString);
             captureDevice.NewFrame += CaptureDevice_NewFrame;
             captureDevice.Start();
+            timer_scanner.Start();
         }
 
         private void CaptureDevice_NewFrame(object sender, NewFrameEventArgs eventArgs)
         {
-            throw new NotImplementedException();
+            pcb_scanner.Image = (Bitmap)eventArgs.Frame.Clone();
         }
 
         private void Form1_FormClosing(object sender, FormClosingEventArgs e)
         {
             Application.Exit();
             Environment.Exit(0);
+        }
+
+        private void timer_scanner_Tick(object sender, EventArgs e)
+        {
+            if (pcb_scanner.Image != null)
+            {
+                BarcodeReader barcodeReader = new BarcodeReader();
+                Result effect = barcodeReader.Decode((Bitmap)pcb_scanner.Image);
+                if (effect != null)
+                {
+                    timer_scanner.Stop();
+                    MessageBox.Show("Thank You For Your Response!");
+                    string Info = effect.ToString();
+                    StringBuilder builder = new StringBuilder(Info);
+                    Info = effect.ToString();
+                    string Shown = Info;
+                    MessageBox.Show(Shown);
+                    StreamWriter list = new StreamWriter(@"F:\Contact Tracing List\QRCode List\QRCode_Name.txt");
+                    list.WriteLine(Info);
+                    list.Close();
+                    MessageBox.Show("This File Will be Saved in QRCode List Folder");
+                    MessageBox.Show("This Application will now Restart");
+                    Application.Restart();
+                    {
+                        
+                    }
+                }
+
+                
+            }
         }
     }
 }

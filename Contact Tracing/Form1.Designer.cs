@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.lbl_ctracing = new System.Windows.Forms.Label();
             this.lbl_mname = new System.Windows.Forms.Label();
@@ -60,6 +61,7 @@
             this.btn_start = new System.Windows.Forms.Button();
             this.lbl_QRCode = new System.Windows.Forms.Label();
             this.btn_generate = new System.Windows.Forms.Button();
+            this.timer_scanner = new System.Windows.Forms.Timer(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.pcb_scanner)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pcb_generate)).BeginInit();
             this.SuspendLayout();
@@ -362,6 +364,11 @@
             this.btn_generate.UseVisualStyleBackColor = false;
             this.btn_generate.Click += new System.EventHandler(this.btn_generate_Click);
             // 
+            // timer_scanner
+            // 
+            this.timer_scanner.Interval = 1000;
+            this.timer_scanner.Tick += new System.EventHandler(this.timer_scanner_Tick);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -445,5 +452,6 @@
         private Button btn_start;
         private Label lbl_QRCode;
         private Button btn_generate;
+        private System.Windows.Forms.Timer timer_scanner;
     }
 }

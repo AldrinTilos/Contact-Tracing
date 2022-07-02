@@ -22,6 +22,8 @@ namespace Contact_Tracing
         {
             InitializeComponent();
         }
+        FilterInfoCollection filterInfoCollection;
+        VideoCaptureDevice captureDevice;
         private void label8_Click(object sender, EventArgs e)
         {
         }
@@ -81,6 +83,14 @@ namespace Contact_Tracing
             Environment.NewLine + "Gender: " + txtbox_gender.Text + Environment.NewLine + "Date of Birth: " + txtbox_dbirth.Text + Environment.NewLine + "Temperature: " + txtbox_temp.Text, QRCodeGenerator.ECCLevel.Q);
             QRCode code = new QRCode(Generate);
             pcb_generate.Image = code.GetGraphic(4);
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            filterInfoCollection = new FilterInfoCollection(FilterCategory.VideoInputDevice);
+            foreach (FilterInfo filterInfo in filterInfoCollection)
+                cb_camera.Items.Add(filterInfo.Name);
+            cb_camera.SelectedIndex = 0;
         }
     }
 }

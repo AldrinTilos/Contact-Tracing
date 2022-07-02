@@ -69,7 +69,7 @@
             this.lbl_ctracing.AutoSize = true;
             this.lbl_ctracing.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.lbl_ctracing.Font = new System.Drawing.Font("Verdana", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point);
-            this.lbl_ctracing.Location = new System.Drawing.Point(395, 203);
+            this.lbl_ctracing.Location = new System.Drawing.Point(384, 214);
             this.lbl_ctracing.Name = "lbl_ctracing";
             this.lbl_ctracing.Size = new System.Drawing.Size(269, 29);
             this.lbl_ctracing.TabIndex = 1;
@@ -81,7 +81,7 @@
             this.lbl_mname.AutoSize = true;
             this.lbl_mname.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.lbl_mname.Font = new System.Drawing.Font("Verdana", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lbl_mname.Location = new System.Drawing.Point(6, 267);
+            this.lbl_mname.Location = new System.Drawing.Point(5, 272);
             this.lbl_mname.Name = "lbl_mname";
             this.lbl_mname.Size = new System.Drawing.Size(110, 18);
             this.lbl_mname.TabIndex = 2;
@@ -92,7 +92,7 @@
             this.lbl_time.AutoSize = true;
             this.lbl_time.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.lbl_time.Font = new System.Drawing.Font("Verdana", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lbl_time.Location = new System.Drawing.Point(674, 270);
+            this.lbl_time.Location = new System.Drawing.Point(679, 278);
             this.lbl_time.Name = "lbl_time";
             this.lbl_time.Size = new System.Drawing.Size(51, 18);
             this.lbl_time.TabIndex = 3;
@@ -103,7 +103,7 @@
             this.lbl_cyear.AutoSize = true;
             this.lbl_cyear.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.lbl_cyear.Font = new System.Drawing.Font("Verdana", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lbl_cyear.Location = new System.Drawing.Point(6, 331);
+            this.lbl_cyear.Location = new System.Drawing.Point(5, 336);
             this.lbl_cyear.Name = "lbl_cyear";
             this.lbl_cyear.Size = new System.Drawing.Size(137, 18);
             this.lbl_cyear.TabIndex = 4;
@@ -114,7 +114,7 @@
             this.lbl_fname.AutoSize = true;
             this.lbl_fname.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.lbl_fname.Font = new System.Drawing.Font("Verdana", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lbl_fname.Location = new System.Drawing.Point(6, 236);
+            this.lbl_fname.Location = new System.Drawing.Point(5, 241);
             this.lbl_fname.Name = "lbl_fname";
             this.lbl_fname.Size = new System.Drawing.Size(96, 18);
             this.lbl_fname.TabIndex = 5;
@@ -125,7 +125,7 @@
             this.lbl_lname.AutoSize = true;
             this.lbl_lname.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.lbl_lname.Font = new System.Drawing.Font("Verdana", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lbl_lname.Location = new System.Drawing.Point(6, 299);
+            this.lbl_lname.Location = new System.Drawing.Point(5, 304);
             this.lbl_lname.Name = "lbl_lname";
             this.lbl_lname.Size = new System.Drawing.Size(95, 18);
             this.lbl_lname.TabIndex = 6;
@@ -136,7 +136,7 @@
             this.lbl_address.AutoSize = true;
             this.lbl_address.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.lbl_address.Font = new System.Drawing.Font("Verdana", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lbl_address.Location = new System.Drawing.Point(6, 365);
+            this.lbl_address.Location = new System.Drawing.Point(5, 370);
             this.lbl_address.Name = "lbl_address";
             this.lbl_address.Size = new System.Drawing.Size(74, 18);
             this.lbl_address.TabIndex = 7;
@@ -148,7 +148,7 @@
             this.lbl_cnumber.AutoSize = true;
             this.lbl_cnumber.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.lbl_cnumber.Font = new System.Drawing.Font("Verdana", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lbl_cnumber.Location = new System.Drawing.Point(642, 243);
+            this.lbl_cnumber.Location = new System.Drawing.Point(647, 251);
             this.lbl_cnumber.Name = "lbl_cnumber";
             this.lbl_cnumber.Size = new System.Drawing.Size(138, 18);
             this.lbl_cnumber.TabIndex = 8;
@@ -170,7 +170,7 @@
             this.lbl_gender.AutoSize = true;
             this.lbl_gender.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.lbl_gender.Font = new System.Drawing.Font("Verdana", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lbl_gender.Location = new System.Drawing.Point(768, 299);
+            this.lbl_gender.Location = new System.Drawing.Point(768, 304);
             this.lbl_gender.Name = "lbl_gender";
             this.lbl_gender.Size = new System.Drawing.Size(69, 18);
             this.lbl_gender.TabIndex = 10;
@@ -189,14 +189,14 @@
             // 
             // txtbox_mname
             // 
-            this.txtbox_mname.Location = new System.Drawing.Point(136, 263);
+            this.txtbox_mname.Location = new System.Drawing.Point(135, 268);
             this.txtbox_mname.Name = "txtbox_mname";
             this.txtbox_mname.Size = new System.Drawing.Size(210, 23);
             this.txtbox_mname.TabIndex = 2;
             // 
             // txtbox_time
             // 
-            this.txtbox_time.Location = new System.Drawing.Point(731, 267);
+            this.txtbox_time.Location = new System.Drawing.Point(736, 275);
             this.txtbox_time.Name = "txtbox_time";
             this.txtbox_time.Size = new System.Drawing.Size(77, 23);
             this.txtbox_time.TabIndex = 7;
@@ -204,35 +204,35 @@
             // 
             // txtbox_cyear
             // 
-            this.txtbox_cyear.Location = new System.Drawing.Point(161, 326);
+            this.txtbox_cyear.Location = new System.Drawing.Point(160, 331);
             this.txtbox_cyear.Name = "txtbox_cyear";
             this.txtbox_cyear.Size = new System.Drawing.Size(107, 23);
             this.txtbox_cyear.TabIndex = 4;
             // 
             // txtbox_fname
             // 
-            this.txtbox_fname.Location = new System.Drawing.Point(108, 231);
+            this.txtbox_fname.Location = new System.Drawing.Point(107, 236);
             this.txtbox_fname.Name = "txtbox_fname";
             this.txtbox_fname.Size = new System.Drawing.Size(193, 23);
             this.txtbox_fname.TabIndex = 1;
             // 
             // txtbox_lname
             // 
-            this.txtbox_lname.Location = new System.Drawing.Point(122, 294);
+            this.txtbox_lname.Location = new System.Drawing.Point(121, 299);
             this.txtbox_lname.Name = "txtbox_lname";
             this.txtbox_lname.Size = new System.Drawing.Size(224, 23);
             this.txtbox_lname.TabIndex = 3;
             // 
             // txtbox_address
             // 
-            this.txtbox_address.Location = new System.Drawing.Point(86, 360);
+            this.txtbox_address.Location = new System.Drawing.Point(85, 365);
             this.txtbox_address.Name = "txtbox_address";
             this.txtbox_address.Size = new System.Drawing.Size(392, 23);
             this.txtbox_address.TabIndex = 5;
             // 
             // txtbox_cnumber
             // 
-            this.txtbox_cnumber.Location = new System.Drawing.Point(786, 238);
+            this.txtbox_cnumber.Location = new System.Drawing.Point(791, 246);
             this.txtbox_cnumber.Name = "txtbox_cnumber";
             this.txtbox_cnumber.Size = new System.Drawing.Size(235, 23);
             this.txtbox_cnumber.TabIndex = 6;
@@ -246,7 +246,7 @@
             // 
             // txtbox_gender
             // 
-            this.txtbox_gender.Location = new System.Drawing.Point(848, 299);
+            this.txtbox_gender.Location = new System.Drawing.Point(848, 304);
             this.txtbox_gender.Name = "txtbox_gender";
             this.txtbox_gender.Size = new System.Drawing.Size(83, 23);
             this.txtbox_gender.TabIndex = 8;
@@ -263,7 +263,7 @@
             // 
             this.btn_submit.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.btn_submit.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btn_submit.Location = new System.Drawing.Point(832, 181);
+            this.btn_submit.Location = new System.Drawing.Point(868, 204);
             this.btn_submit.Name = "btn_submit";
             this.btn_submit.Size = new System.Drawing.Size(134, 36);
             this.btn_submit.TabIndex = 11;
@@ -273,7 +273,7 @@
             // 
             // dtp_date
             // 
-            this.dtp_date.Location = new System.Drawing.Point(814, 267);
+            this.dtp_date.Location = new System.Drawing.Point(819, 275);
             this.dtp_date.Name = "dtp_date";
             this.dtp_date.Size = new System.Drawing.Size(207, 23);
             this.dtp_date.TabIndex = 12;
@@ -282,7 +282,7 @@
             // 
             this.btn_admin.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.btn_admin.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
-            this.btn_admin.Location = new System.Drawing.Point(14, 12);
+            this.btn_admin.Location = new System.Drawing.Point(939, 3);
             this.btn_admin.Name = "btn_admin";
             this.btn_admin.Size = new System.Drawing.Size(96, 34);
             this.btn_admin.TabIndex = 13;
@@ -403,6 +403,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
             this.Text = "Contact Tracing";
+            this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pcb_scanner)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pcb_generate)).EndInit();
             this.ResumeLayout(false);

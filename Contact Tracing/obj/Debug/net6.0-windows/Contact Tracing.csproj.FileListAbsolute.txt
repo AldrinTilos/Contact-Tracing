@@ -39,3 +39,10 @@ C:\Users\tilos\source\repos\Contact Tracing (orig)\Contact Tracing\obj\Debug\net
 C:\Users\tilos\source\repos\Contact Tracing (orig)\Contact Tracing\obj\Debug\net6.0-windows\Contact_Tracing.Form4.resources
 C:\Users\tilos\source\repos\Contact Tracing (orig)\Contact Tracing\obj\Debug\net6.0-windows\Contact_Tracing.Form5.resources
 C:\Users\tilos\source\repos\Contact Tracing (orig)\Contact Tracing\obj\Debug\net6.0-windows\Contact_Tracing.Form6.resources
+C:\Users\tilos\source\repos\Contact Tracing (orig)\Contact Tracing\bin\Debug\net6.0-windows\AForge.dll
+C:\Users\tilos\source\repos\Contact Tracing (orig)\Contact Tracing\bin\Debug\net6.0-windows\AForge.Video.dll
+C:\Users\tilos\source\repos\Contact Tracing (orig)\Contact Tracing\bin\Debug\net6.0-windows\AForge.Video.DirectShow.dll
+C:\Users\tilos\source\repos\Contact Tracing (orig)\Contact Tracing\bin\Debug\net6.0-windows\QRCoder.dll
+C:\Users\tilos\source\repos\Contact Tracing (orig)\Contact Tracing\bin\Debug\net6.0-windows\zxing.dll
+C:\Users\tilos\source\repos\Contact Tracing (orig)\Contact Tracing\bin\Debug\net6.0-windows\ZXing.Windows.Compatibility.dll
+C:\Users\tilos\source\repos\Contact Tracing (orig)\Contact Tracing\obj\Debug\net6.0-windows\Contact Tracing.csproj.CopyComplete

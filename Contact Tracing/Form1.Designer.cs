@@ -282,7 +282,7 @@
             // 
             this.btn_admin.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.btn_admin.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
-            this.btn_admin.Location = new System.Drawing.Point(5, 12);
+            this.btn_admin.Location = new System.Drawing.Point(14, 12);
             this.btn_admin.Name = "btn_admin";
             this.btn_admin.Size = new System.Drawing.Size(96, 34);
             this.btn_admin.TabIndex = 13;
@@ -294,7 +294,8 @@
             // 
             this.pcb_scanner.Location = new System.Drawing.Point(12, 433);
             this.pcb_scanner.Name = "pcb_scanner";
-            this.pcb_scanner.Size = new System.Drawing.Size(447, 258);
+            this.pcb_scanner.Size = new System.Drawing.Size(447, 333);
+            this.pcb_scanner.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.pcb_scanner.TabIndex = 14;
             this.pcb_scanner.TabStop = false;
             // 
@@ -321,7 +322,8 @@
             // 
             this.pcb_generate.Location = new System.Drawing.Point(586, 425);
             this.pcb_generate.Name = "pcb_generate";
-            this.pcb_generate.Size = new System.Drawing.Size(435, 266);
+            this.pcb_generate.Size = new System.Drawing.Size(440, 341);
+            this.pcb_generate.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.pcb_generate.TabIndex = 18;
             this.pcb_generate.TabStop = false;
             // 
@@ -357,6 +359,7 @@
             this.btn_generate.TabIndex = 21;
             this.btn_generate.Text = "&Generate";
             this.btn_generate.UseVisualStyleBackColor = false;
+            this.btn_generate.Click += new System.EventHandler(this.btn_generate_Click);
             // 
             // Form1
             // 
@@ -365,7 +368,7 @@
             this.AutoScroll = true;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1048, 703);
+            this.ClientSize = new System.Drawing.Size(1038, 778);
             this.Controls.Add(this.btn_generate);
             this.Controls.Add(this.lbl_QRCode);
             this.Controls.Add(this.btn_start);

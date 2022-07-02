@@ -1,3 +1,19 @@
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+using System.IO;
+using QRCoder;
+using AForge.Video;
+using AForge.Video.DirectShow;
+using ZXing;
+using ZXing.Aztec;
+using ZXing.Windows.Compatibility;
 namespace Contact_Tracing
 {
     public partial class Form1 : Form
@@ -53,6 +69,18 @@ namespace Contact_Tracing
         {
             Form2 info = new Form2();
             info.ShowDialog();
+        }
+
+        private void btn_generate_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("This will be generated into a QR Code");
+            QRCodeGenerator QRCode = new QRCodeGenerator();
+            QRCodeData Generate = QRCode.CreateQrCode(Environment.NewLine + "Date: " + dtp_date.Text + Environment.NewLine + "Time: " + txtbox_time.Text + Environment.NewLine + "" +
+            Environment.NewLine + "First Name: " + txtbox_fname.Text + Environment.NewLine + "Middle Name: " + txtbox_mname.Text + Environment.NewLine + "Last Name: " + txtbox_lname.Text +
+            Environment.NewLine + "Course and Year: " + txtbox_cyear.Text + Environment.NewLine + "Address: " + txtbox_address.Text + Environment.NewLine + "Contact Number: " + txtbox_cnumber.Text +
+            Environment.NewLine + "Gender: " + txtbox_gender.Text + Environment.NewLine + "Date of Birth: " + txtbox_dbirth.Text + Environment.NewLine + "Temperature: " + txtbox_temp.Text, QRCodeGenerator.ECCLevel.Q);
+            QRCode code = new QRCode(Generate);
+            pcb_generate.Image = code.GetGraphic(4);
         }
     }
 }
